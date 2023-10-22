@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap');
+
+.founder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+}
+.founderBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.founderBoxHeader{
+    font-family: 'Red Hat Display', sans-serif;
+ font-weight: 400;
+ font-size: 64px;
+}
+.founderBoxRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 100px;
+}
+.founderBoxRow1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+background-color: #F8F8F8;
+}
+.founderBoxRow1Img{
+    width: 50%;
+}
+.founderBoxRow1Img img{width: 100%;}
+.founderBoxRowContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    flex-direction: column;
+    gap: 20px;
+}
+.founderBoxRowContent img{cursor: pointer;}
+.founderBoxRowContent2 img{cursor: pointer;}
+
+.founderBoxRow2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+background-color: #F0F0F0;
+
+}
+.founderBoxRow2Img{
+    width: 50%;
+}
+.founderBoxRow2Img img{width: 100%;}
+.founderBoxRowContent2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .founder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .founderBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    .founderBoxHeader{
+        font-family: 'Red Hat Display', sans-serif;
+     font-weight: 400;
+     font-size: 40px;
+    }
+    .founderBoxRow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    margin-top: 50px;
+    }
+    .founderBoxRow1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #F8F8F8;
+    }
+    .founderBoxRow1Img{
+        width: 100%;
+    }
+    .founderBoxRow1Img img{width: 100%;}
+    .founderBoxRowContent{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .founderBoxRowContent img{cursor: pointer;}
+    .founderBoxRowContent2 img{cursor: pointer;}
+    
+    .founderBoxRow2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #F0F0F0;
+    
+    }
+    .founderBoxRow2Img{
+        width: 100%;
+    }
+    .founderBoxRow2Img img{width: 100%;}
+    .founderBoxRowContent2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

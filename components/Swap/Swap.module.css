@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap');
+.swap{
+    position: relative;
+    /* width: 100%; */
+    margin-top: 100px;
+    background-color: #151208;
+    padding:100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swapBkg{
+    position: relative;
+    height: 60%;
+    width: 100%;
+
+}
+.swapInside{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 70%;
+}
+.dots{
+    width: 80%;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+.swapContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    text-align: left; 
+    flex-direction: column;
+}
+.swapH1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: white;
+}
+.swapH2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #FBBD18;
+    margin: 15px 0;
+}
+.swapP{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: white;
+}
+.swapBtn img{
+    width: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.calc{
+    position: relative;
+    z-index: 100;
+}
+@media screen and  (max-width:1000px) {
+    .swap{
+        position: relative;
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        padding: 20px;
+        margin-top: 0px;
+    }
+    .swapBkg{
+        position: relative;
+        height: 60%;
+        width: 100%;
+        display: none;
+    }
+    .dots{
+        position: absolute;
+        left: 50%;
+    }
+    .swapInside{
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+        width: 100%;
+        top: 0px;
+
+    }
+    .swapContent{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        text-align: left; 
+        flex-direction: column;
+    }
+    .swapH1{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+    }
+    .swapH2{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 900;
+        font-size: 35px;
+        color: #FBBD18;
+        margin: 15px 0;
+    }
+    .swapP{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 400;
+        font-size:15px;
+        line-height: 25px;
+        color: white;
+    }
+    .swapBtn img{
+        width: 100px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .calc{
+        width: 300px;
+    }
+     
+}

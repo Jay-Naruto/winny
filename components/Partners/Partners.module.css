@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap');
+
+.spAll{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 200px;
+
+}
+.spContent img{
+    width: 200px;
+}
+.spContent div{
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-weight: 600;
+    font-size: 64px;
+}
+.spContent p{
+    font-family: 'Red Hat Display', sans-serif;
+    width: 80%;
+
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+}
+.project{
+    position: relative;
+    width: 100%;
+margin-top: 100px;
+
+}
+.projectBkg{
+    position: relative;
+    width: 100%;
+}
+.projectContent{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.projectContent{
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+font-weight: 600;
+font-size: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.projectSqImg{
+    width: 100%;
+}
+.projectSqImg img{
+    width: 100%;
+}
+.projectEllipse{
+    position: absolute;
+    width: 30%;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width:1000px) {
+   
+.spAll{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 100px;
+
+}
+.spContent img{
+    width: 100px;
+}
+.spContent div{
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-weight: 600;
+    font-size: 20px;
+}
+.spContent p{
+    font-family: 'Red Hat Display', sans-serif;
+    width: 80%;
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+}
+.project{
+    position: relative;
+    width: 100%;
+margin-top: 50px;
+
+}
+.projectBkg{
+    position: relative;
+    width: 100%;
+}
+.projectContent{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.projectContent{
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+font-weight: 600;
+font-size: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.projectSqImg{
+    width: 100%;
+}
+.projectSqImg img{
+    width: 100%;
+}
+.projectEllipse{
+    position: absolute;
+    width: 30%;
+    top: 0;
+    left: 0;
+}
+ 
+}

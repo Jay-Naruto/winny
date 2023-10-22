@@ -1,0 +1,58 @@
+import React from 'react'
+import styles from "./About.module.css"
+export default function About() {
+  return (
+    <div className={styles.about}>
+        <div className={styles.aboutBox}>
+            <div className={styles.about1}>
+                <img src='./about1.png' alt=''/>
+            </div>
+            <div className={styles.about2Outer} >
+                <div className={styles.about2}>
+
+                        <div>
+                        Our Vision
+                        </div>
+                        <p>
+                        The Trillioner project is aiming to bring trust and security to the world of crypto by providing convenient and instant payment solutions. With the rise of digital currencies, it's important to have a reliable and secure payment method that users can trust.
+                        </p>
+
+                </div>
+               
+                    <img  src="./about2.png" alt=''/>
+          
+                <div>
+
+                </div>
+            </div>
+
+            <div className={styles.about3Outer}>
+                <div className={styles.about3Header}>
+                About Trillioner
+                </div>
+                <div className={styles.about3Inner}>
+                <div className={styles.about3InnerInner}>
+
+                    <div className={styles.about3InnerHeader}>
+                    Our Mission
+                    </div>
+                    <p className={styles.about3InnerText}>
+                    The Trillioner crypto project aims to bridge the gap between traditional finance and the crypto world by offering financial services for both crypto projects and private users. This will include access to our products as well as traditional fiat banking and financial services for blockchain businesses and individuals.
+                    </p>
+                    <img className={styles.ellipse1} src='./ellipse1.png' alt=''/>
+                </div>
+                <span>
+
+                <img src='./about3.png' alt=''/>
+
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+  )
+}

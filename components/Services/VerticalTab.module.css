@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap');
+
+.verticalBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 200px;
+    position: relative;
+}
+.verticalInnerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+}
+.verticalInnerBox div{
+  font-family: 'Red Hat Display', sans-serif;
+font-weight: 600;
+font-size: 65px;
+}
+.verticalInnerBox p{
+    font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 50px;
+  line-height: 36px;
+  }
+
+  @media screen and (max-width:1000px) {
+    .verticalBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+      width: 100%;
+      margin-top: 100px;
+      position: relative;
+  }
+  .verticalInnerBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+  }
+  .verticalInnerBox div{
+    font-family: 'Red Hat Display', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  }
+  .verticalInnerBox p{
+      font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 30px;
+    }
+  
+  }
+  
