@@ -18,7 +18,10 @@ export default function Future() {
             </p>
             </div>
             <div  className={styles.futureImg}>
-         <img src='./table.png' alt=''/>
+         {/* <img src='./table.png' alt=''/> */}
+         {/* <div class="livecoinwatch-widget-3" lcw-base="INR" lcw-d-head="true" lcw-d-name="true" lcw-d-code="true" lcw-d-icon="true" lcw-color-tx="#ffffff" lcw-color-bg="#fff" lcw-border-w="1" ></div> */}
+<coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,litecoin,tether,binancecoin,solana,trillioner" currency="inr" locale="en" width="0"></coingecko-coin-list-widget>
+            
             </div>
 
 

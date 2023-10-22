@@ -35,16 +35,24 @@ export default function Footer() {
                 <div>
                 <ul>
                     <li>
+                        <a href='#about-us'>
                         About Us
+                        </a>
                     </li>
                     <li>
+                    <a href='#mission'>
                         Mission
+                        </a>
                     </li>
                     <li>
-                        Services
+                    <a href='#services'>
+                       Services
+                        </a>
                     </li>
                     <li>
-                            Roadmap
+                    <a href='#roadmap'>
+                        Roadmap
+                        </a>
                     </li>
 
                 </ul>
@@ -52,12 +60,20 @@ export default function Footer() {
                 <div>
                 <ul>
                 <li>
-                        Team
+                <a href='#team'>
+                       Team
+                        </a>
                     </li>
                     <li>
+                    <a href='#tokenomics'>
                         Tokenomics
+                        </a>
                     </li>
-                    <li>Media</li>
+                    <li>
+                    <a href='#media'>
+                       Media
+                        </a>
+                    </li>
                 </ul>
                 </div>
 
@@ -66,7 +82,8 @@ export default function Footer() {
 
 </div>
             <div  className={styles.footerBoxRight}>
-<img src='./graph.png' alt=''/>
+{/* <img src='./graph.png' alt=''/> */}
+ <div class="livecoinwatch-widget-1" lcw-coin="_TLC" lcw-base="INR" lcw-secondary="USDT" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-pr="#58c7c5" lcw-color-bg="#1f2434" lcw-border-w="1" ></div>
             </div>
         </div>
         <div className={styles.foot}>

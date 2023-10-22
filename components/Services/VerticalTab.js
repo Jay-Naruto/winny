@@ -13,7 +13,7 @@ function VerticalTab(props) {
   }
 
   return (
-    <div className={styles.verticalBox}>
+    <div id="services" className={styles.verticalBox}>
           <img className="looper" src="./Looper-4.png" alt=""/>
 
       <div className={styles.verticalInnerBox}>

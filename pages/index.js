@@ -25,6 +25,10 @@ export default function Home() {
         <meta name="description" content="Trillioner" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/roadmapIn.png" />
+        <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script>
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
       </Head>
       <Header/>
       <Landing/>
@@ -37,6 +41,7 @@ export default function Home() {
       <Partners/>
       <Founder/>
       <Footer/>
+      
     </>
   )
 }

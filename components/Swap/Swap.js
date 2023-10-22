@@ -2,6 +2,35 @@ import React, { useEffect, useState } from 'react'
 import styles from "./Swap.module.css"
 
 export default function Swap() {
+  useEffect(() => {
+    // describe widget configuration and saving to a global variable for future use
+    var configuration = {
+      from: 'USDT',
+      to: 'TLC',
+      fromChain: 'BSC',
+      toChain: 'BSC',
+      amount: 1,
+      iframe: 'flex',
+      hideSelectionFrom: false,
+      hideSelectionTo: false,
+      theme: 'dark',
+      background: '#28372e',
+      injectTokens: {
+        bsc: ['0x8aed24bf6e0247be51c57d68ad32a176bf86f4d9'],
+    },
+    
+      slippagePercent: {
+        instantTrades: 2,
+        crossChain: 5,
+      },
+    };
+
+    // prevent accidental changes to the object, for example, when re-creating a widget for another theme
+    Object.freeze(configuration);
+
+    // create widget
+    rubicWidget.init(configuration);
+  }, []);
 
   return (
     <div className={styles.swap}>
@@ -9,7 +38,9 @@ export default function Swap() {
         <img className={styles.dots} src='./dots.png' alt=''/>
 
             <div>
-            <img className={styles.calc} src='./calc.png' alt=''/>
+            {/* <img className={styles.calc} src='./calc.png' alt=''/> */}
+            <div id="rubic-widget-root"></div>
+
             </div>
             <div className={styles.swapContent}>
             <div className={styles.swapH1}>

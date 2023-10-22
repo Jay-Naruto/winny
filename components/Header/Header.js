@@ -21,47 +21,37 @@ export default function Header() {
                 open === 1 ?
                 <div className={styles.menubox}>
                 <div>
-                    <a href=''>
+                    <a href='/'>
                         Home
                     </a>
                 </div>
                 <div>
-                    <a href=''>
+                    <a href='#about-us'>
                         About Us
                     </a>
                 </div>
                 <div>
-                    <a href=''>
-                        Home
-                    </a>
-                </div>
-                <div>
-                    <a href=''>
+                    <a href='#mission'>
                         Mission
                     </a>
                 </div>
                 <div>
-                    <a href=''>
+                    <a href='#services'>
                         Services
                     </a>
                 </div>
                 <div>
-                    <a href=''>
-                        Home
-                    </a>
-                </div>
-                <div>
-                    <a href=''>
+                    <a href='#team'>
                         Team
                     </a>
                 </div>
                 <div>
-                    <a href=''>
+                    <a href='#tokenomics'>
                         Tokenomics
                     </a>
                 </div>
                 <div>
-                    <a href=''>
+                    <a href='#media'>
                         Media
                     </a>
                 </div>

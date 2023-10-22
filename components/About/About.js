@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./About.module.css"
 export default function About() {
   return (
-    <div className={styles.about}>
+    <div id='about-us' className={styles.about}>
         <div className={styles.aboutBox}>
             <div className={styles.about1}>
                 <img src='./about1.png' alt=''/>
@@ -26,7 +26,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className={styles.about3Outer}>
+            <div id='mission' className={styles.about3Outer}>
                 <div className={styles.about3Header}>
                 About Trillioner
                 </div>

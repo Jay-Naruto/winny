@@ -690,3 +690,33 @@ a{
   text-decoration: none;
   color: white;
 }
+
+
+
+#rubic-widget-root{
+  position: relative;
+  z-index: 1000;
+  
+}
+.cg-container{
+  background-color: white !important;
+  border-radius: 20px !important;
+}
+.cg-widget{
+  background-color: white !important;
+  border-radius: 20px !important;
+}
+.cg-widget a{
+  background-color: white !important;
+}
+.cg-container {
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 1.25;
+  font-family: 'Red Hat Display', sans-serif !important;
+  font-size: 12px;
+  min-width: 250px;
+  box-sizing: border-box;
+  border-radius: 20px !important;
+  
+}

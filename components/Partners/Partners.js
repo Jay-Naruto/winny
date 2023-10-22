@@ -20,7 +20,7 @@ export default function Partners() {
             <p>
             TLC Legal Opinion is taken by the top professions of Legal Kornet, They are experts clearly consider all sufficient facts confirming each of the conclusions set forth in the document. TLC legal opinion covered by top lawyers contains the interpretation of facts and potential risks of the matter. This ensures that for TLC the assumptions are accurate and complete.
             </p>
-        </div>
+        </div> 
         <div className={styles.project}>
             <img  className={styles.projectBkg} src='./projectbkg.png' alt=''/>
             <img  className={styles.projectEllipse} src='./Looper-6.png' alt=''/>

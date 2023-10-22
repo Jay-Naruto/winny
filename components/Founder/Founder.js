@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./Founder.module.css"
 export default function Founder() {
   return (
-    <div className={styles.founder}>
+    <div id='media' className={styles.founder}>
         <div  className={styles.founderBox}>
             <div  className={styles.founderBoxHeader}>
             Founder in Media
