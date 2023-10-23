@@ -27,8 +27,7 @@ export default function Home() {
         <link rel="icon" href="/roadmapIn.png" />
         <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script>
         <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
-        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
-        <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
+        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
       </Head>
       <Header/>
       <Landing/>

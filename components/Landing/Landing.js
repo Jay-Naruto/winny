@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "./Landing.module.css"
+import Typewriter from 'typewriter-effect';
+
 export default function Landing() {
   return (
     <div>
@@ -10,7 +12,14 @@ export default function Landing() {
             Empowering a new<br></br>Generation of Trillionaires
             </div>
             <div  className={styles.landingContent} >
-            Trillioner Coin: One stop solution for Crypto Banking.
+            <Typewriter
+                            options={{
+                                strings: [" Trillioner Coin: One stop solution for Crypto Banking."],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                            />
+           
             </div>
             <div  className={styles.landingBtn} >
                 <img src='./bttn.png' alt=''/>

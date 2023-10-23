@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./About.module.css"
+import Typewriter from 'typewriter-effect';
 export default function About() {
   return (
     <div id='about-us' className={styles.about}>
@@ -14,6 +15,7 @@ export default function About() {
                         Our Vision
                         </div>
                         <p>
+                            
                         The Trillioner project is aiming to bring trust and security to the world of crypto by providing convenient and instant payment solutions. With the rise of digital currencies, it's important to have a reliable and secure payment method that users can trust.
                         </p>
 

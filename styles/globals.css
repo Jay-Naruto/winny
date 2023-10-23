@@ -720,3 +720,9 @@ a{
   border-radius: 20px !important;
   
 }
+.coinmarketcap-currency-widget{
+  margin: 20px !important;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+}
