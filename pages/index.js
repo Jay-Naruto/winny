@@ -14,12 +14,27 @@ import Partners from '@/components/Partners/Partners.js'
 import Founder from '@/components/Founder/Founder.js'
 import Footer from '@/components/Footer/Footer.js'
 import Header from '@/components/Header/Header.js'
+import { useEffect, useState } from 'react'
+import Loading from '@/components/Loading.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const [loader,setLoader]=useState(0)
+  useEffect(()=>{
+    setLoader(1)
+ setTimeout(()=>{
+setLoader(0)
+ },2000)
+  },[])
   return (
     <>
+
+      {
+        loader === 1?
+        <Loading/>
+        :
+        <>
       <Head>
         <title>Trillioner</title>
         <meta name="description" content="Trillioner" />
@@ -42,6 +57,12 @@ export default function Home() {
       <Partners/>
       <Founder/>
       <Footer/>
+        </>
+
+
+      }
+
+
       
     </>
   )
