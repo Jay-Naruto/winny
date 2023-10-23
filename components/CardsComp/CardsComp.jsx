@@ -36,7 +36,7 @@ const CardsComp = () => {
                 
                 
               ) : (
-                isDesktopOrLaptop ? <img src="./sponsors_m.png" alt="Card" /> : <img src="./sponsors.png" alt="Card" />
+                isDesktopOrLaptop ? <img src="./sponsors_m.png" alt="Card" /> : <img src="./logobanner2.png" alt="Card" />
               )}
             </div>
           </li>

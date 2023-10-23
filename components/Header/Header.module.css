@@ -53,7 +53,9 @@
     color: white !important;
     border-radius: 20px;
 }
-
+.menubox div a:hover{
+  color: #FBBD18;
+}
 @media screen and (max-width:1000px) {
 .menubox
 { 

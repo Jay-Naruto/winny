@@ -108,10 +108,22 @@ font-weight: 400;
 .section__Jobs-buttonCompany:focus {
   background-color: transparent;
   color: #0A0A0F !important;
-  border-left: 5px solid  #FDD772;
   border-radius: 30px;
   cursor: pointer;
 }
+.section__Jobs-buttonCompany:focus {
+
+  border-left: 5px solid  #FDD772;
+  
+
+}
+.section__Jobs-buttonCompany:focus div{
+  background-color: #FFFFFF78;
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: 1px solid #62626257;
+}
+
 .section__Jobs-buttonCompany:hover div{
   background-color: #FFFFFF78;
   padding: 20px 30px;
@@ -725,4 +737,14 @@ a{
   position: relative;
   z-index: 10;
   background-color: #fff;
+}
+.g2{
+  position: relative;
+  left: 50%;
+}
+@media screen and (max-width:1000px) {
+  .g2{
+    position: relative;
+    left: 0%;
+  }
 }

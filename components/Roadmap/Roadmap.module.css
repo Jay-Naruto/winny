@@ -67,7 +67,7 @@
     .roadmapInside{
         position: absolute;
         top: 58%;
-        left: 40%;
+        left: 41%;
         /* transform: translate(-50%,-50%); */
         z-index: 100;
         -webkit-animation:spin 10s linear infinite;
