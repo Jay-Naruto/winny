@@ -16,8 +16,7 @@ let Data = {
           position: "Payment App",
           period: "Oct 2016 - May 2018",
           details: [
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. ",
-            "Nam vehicula pretium arcu. Nam venenatis ante et porta pellentesque."
+            "Our team is developing a cutting-edge payment application that enables users to make crypto payments for any goods or services, regardless of their location."
           ]
         }
       },
@@ -27,9 +26,7 @@ let Data = {
           position: "VISA Debit Card",
           period: "Mar 2016 - Oct 2016",
           details: [
-            "Ut lobortis neque sit amet felis aliquam, sit amet placerat leo maximus. Aenean a tempus massa, vel varius leo.",
-            "Sed eu efficitur leo, nec congue elit. Etiam ullamcorper est at pulvinar condimentum.",
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. "
+            "We are launching of our revolutionary crypto debit card. This innovative card will allow users to store their cryptocurrencies and make fiat payments seamlessly and securely."
           ]
         }
       },
@@ -39,9 +36,7 @@ let Data = {
           position: "Stake and Earn",
           period: "Mar 2016 - Oct 2016",
           details: [
-            "Ut lobortis neque sit amet felis aliquam, sit amet placerat leo maximus. Aenean a tempus massa, vel varius leo.",
-            "Sed eu efficitur leo, nec congue elit. Etiam ullamcorper est at pulvinar condimentum.",
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. "
+            "Trillioner Token is proud to offer our users an exciting staking option, enabling them to earn regular interest on their tokens."
           ]
         }
       },
@@ -51,9 +46,7 @@ let Data = {
           position: "Trillioner DAO",
           period: "Mar 2016 - Oct 2016",
           details: [
-            "Ut lobortis neque sit amet felis aliquam, sit amet placerat leo maximus. Aenean a tempus massa, vel varius leo.",
-            "Sed eu efficitur leo, nec congue elit. Etiam ullamcorper est at pulvinar condimentum.",
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. "
+            "As a DAO, it is governed by its members, who can propose and vote on various decisions related to the network's operations and development. The Trillioner DAO enables its members to collectively participate in decision-making"
           ]
         }
       },
@@ -63,9 +56,7 @@ let Data = {
           position: "Brokerage (forex, stocks)",
           period: "Mar 2016 - Oct 2016",
           details: [
-            "Ut lobortis neque sit amet felis aliquam, sit amet placerat leo maximus. Aenean a tempus massa, vel varius leo.",
-            "Sed eu efficitur leo, nec congue elit. Etiam ullamcorper est at pulvinar condimentum.",
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. "
+            "Traditional financial markets remain relevant. For fast and reliable access to the securities, futures and forex markets, clients will have the opportunity to open brokerage accounts."
           ]
         }
       }
