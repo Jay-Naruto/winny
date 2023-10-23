@@ -32,7 +32,7 @@ const CardsComp = () => {
             >
               {color != "#000" ? (
                 
-                  isDesktopOrLaptop ? <img src="./sponsors_m.png" alt="Card" /> :<img src="./logobanner.png" alt="Card" />
+                  isDesktopOrLaptop ? <img src="./logobanner_m.png" alt="Card" /> :<img src="./logobanner.png" alt="Card" />
                 
                 
               ) : (
