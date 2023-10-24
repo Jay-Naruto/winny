@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import VTlist from "./VTlist";
 import VTcontent from "./VTcontent";
 import styles from "./VerticalTab.module.css"
-import ReactHorizontalTimeline from "react-horizontal-timeline";
+
 
 function VerticalTab(props) {
   const [activeTabId, setActiveTabId] = useState(0);
@@ -35,9 +35,7 @@ function VerticalTab(props) {
           </p>
       </div>
 
-      {/* <div style={{ width: '90%', height: '100px', margin: '0 auto' }}>
-        <ReactHorizontalTimeline index={value} indexClick={handleIndexClick} values={VALUES} />
-      </div> */}
+
 
     <Container className="section__Jobs-container">
       <Row  className="section__Jobs-container2">
