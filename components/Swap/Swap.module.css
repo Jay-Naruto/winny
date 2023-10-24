@@ -95,7 +95,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 20px;
         width: 100%;
         top: 0px;
@@ -103,10 +103,11 @@
     }
     .swapContent{
         display: flex;
-        justify-content: center;
-        align-items: center; 
+        justify-content: flex-start;
+        align-items: flex-start; 
         text-align: left; 
         flex-direction: column;
+        margin-top: 30px;
     }
     .swapH1{
         font-family: 'Red Hat Display', sans-serif;
@@ -129,7 +130,7 @@
         color: white;
     }
     .swapBtn img{
-        width: 100px;
+        width: 200px;
         margin-top: 30px;
         cursor: pointer;
     }

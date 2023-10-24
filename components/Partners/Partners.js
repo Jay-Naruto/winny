@@ -1,19 +1,27 @@
 import React from 'react'
 import styles from "./Partners.module.css"
 import CardsComp from '../CardsComp/CardsComp'
+import { useMediaQuery } from 'react-responsive'
 export default function Partners() {
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(max-width: 1000px)'
+      })
   return (
     <div className={styles.partners}>
         <div>
-        <img className={styles.spAll} src='./sp.png' alt=''/>
+        <img className={styles.spAll} src= 
+        { isDesktopOrLaptop ? "./sp2.png" : './sp.png'} alt=''/>
         </div>
         <div>
             <CardsComp/>
         </div>
         <div className={styles.spContent}>
+         <img className={styles.ellipse} src='./Looper-5.png' alt=''/>
+
             <div>
                 <img src='./legal.png' alt=''/>
             </div>
+
             <div>
             Legal Opinion By Legal Kornet USA
             </div>
@@ -22,8 +30,10 @@ export default function Partners() {
             </p>
         </div> 
         <div className={styles.project}>
-            <img  className={styles.projectBkg} src='./projectbkg.png' alt=''/>
+            {/* <img  className={styles.projectBkg} src='./projectbkg.png' alt=''/> */}
             <img  className={styles.projectEllipse} src='./Looper-6.png' alt=''/>
+            <img  className={styles.stars} src='./stars.png' alt=''/>
+
 
             <div  className={styles.projectContent} >
                 <div>

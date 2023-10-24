@@ -3,7 +3,7 @@ import { useState } from "react";
 import move from "lodash-move";
 import { useMediaQuery } from 'react-responsive'
 
-const CARD_COLORS = ["#266678", "#cb7c7a", "#36a18b", "#cda35f", "#747474","#000"];
+const CARD_COLORS = ["0", "1", "2", "3", "4", "5","6"];
 const CARD_OFFSET = 10;
 const SCALE_FACTOR = 0.01;
 
@@ -30,14 +30,22 @@ const CardsComp = () => {
               }}
               onClick={() => moveToEnd(index)}
             >
-              {color != "#000" ? (
-                
-                  isDesktopOrLaptop ? <img src="./logobanner_m.png" alt="Card" /> :<img src="./logobanner.png" alt="Card" />
-                
-                
-              ) : (
-                isDesktopOrLaptop ? <img src="./sponsors_m.png" alt="Card" /> : <img src="./logobanner2.png" alt="Card" />
-              )}
+              {
+              index === 0 ? isDesktopOrLaptop ? <img src="./partner1_m.png" alt="Card" /> :<img src="./partner1.png" alt="Card" />
+              :
+              index === 1 ? isDesktopOrLaptop ? <img src="./partner2_m.png" alt="Card" /> : <img src="./partner2.png" alt="Card" />
+              :
+              index === 2 ? isDesktopOrLaptop ? <img src="./partner3_m.png" alt="Card" /> : <img src="./partner3.png" alt="Card" />
+              :
+              index === 3 ? isDesktopOrLaptop ? <img src="./partner4_m.png" alt="Card" /> : <img src="./partner4.png" alt="Card" />
+              :
+              index === 4 ? isDesktopOrLaptop ? <img src="./partner5_m.png" alt="Card" /> : <img src="./partner5.png" alt="Card" />
+              :
+              index === 5 ? isDesktopOrLaptop ? <img src="./partner6_m.png" alt="Card" /> : <img src="./partner6.png" alt="Card" />
+              :
+              index === 6 ? isDesktopOrLaptop ? <img src="./partner7_m.png" alt="Card" /> : <img src="./partner7y.png" alt="Card" />
+              :null
+            }
             </div>
           </li>
         ))}

@@ -119,7 +119,7 @@ margin-top: 20px;
         display: flex ;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 90%; 
         gap: 0px;
         /* padding: 30px; */
@@ -136,10 +136,11 @@ margin-top: 20px;
     }
     .futureContent{
         display: flex ;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         flex-direction: column;
-        text-align: center;
+        /* text-align: flex-start; */
+        margin-top: 50px;
     }
     .futureBox div{
         font-family: 'Red Hat Display', sans-serif;
@@ -150,7 +151,7 @@ margin-top: 20px;
     .futureContent p{
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 18px;
         text-transform: lowercase capitalize;
     
     }
@@ -176,9 +177,9 @@ margin-top: 20px;
     }
     .ring{
         position: absolute;
-        width: 40%;
-        right: 30%;
-        top: -100px;
+        width: 50%;
+        right: 20%;
+        top: -60px;
         
         -webkit-animation:spin 10s linear infinite;
         -moz-animation:spin 10s linear infinite;
@@ -196,6 +197,7 @@ margin-top: 20px;
         justify-content:center;
         align-items:center;
         flex-direction: column;
+        gap: 50px;
     
     }
 }

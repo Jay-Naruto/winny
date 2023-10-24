@@ -147,7 +147,7 @@ font-weight: 400;
 
   text-align: left;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 25px;
   color: #000;
 }
 
@@ -547,13 +547,13 @@ ul li{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 98%;
+    width: 90%;
 
   }
   .cardcontent{
     position: absolute;
     top: 0;
-    padding: 20px;
+    padding: 20px 40px;
     
   }
   .cardhouse{
@@ -583,7 +583,7 @@ ul li{
     position: absolute;
     top: 0;
     left: 0px;
-    display: inline-block;
+    display: flex;
     width: 2px;
     height: 40px;
     transition: transform 0.5s;
@@ -613,30 +613,43 @@ ul li{
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
-    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
     outline: none;
+    border-left: none;
+
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     height: 40px;
-    width: max-content;
+    width: 150px;
     text-align: left;
-    padding: 0 20px;
+    padding: 0 10px;
     color: #0A0A0F !important;
   font-weight: 400;
+  display: flex;
   }
   
   .section__Jobs-buttonCompany:hover,
   .section__Jobs-buttonCompany:focus {
     background-color: transparent;
     color: #0A0A0F !important;
-    border-left: 5px solid  #FDD772;
-    border-radius: 30px;
+    border-top: 5px solid  #FBBD18;
+    border-left: none;
+    border-radius: 10px;
     cursor: pointer;
+  }
+  .section__Jobs-buttonCompany div{
+    background-color: #FFFFFF78;
+    padding: 10px 15px;
+    border-radius: 40px;
+    margin-top: 10px;
+    /* border: 1px solid #62626257; */
+  
   }
   .section__Jobs-buttonCompany:hover div{
     background-color: #FFFFFF78;
-    padding: 20px 30px;
-    border-radius: 20px;
+    padding: 10px 15px;
+    border-radius:10px;
+    margin-top: 10px;
     border: 1px solid #62626257;
   
   }
@@ -656,7 +669,7 @@ ul li{
   
     text-align: left;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     color: #000;
   }
   
@@ -691,7 +704,25 @@ ul li{
     left: 0px;
     color: #0A0A0F;
   }
-  
+  .col-sm-3{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .section__Jobs-styledTab{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .section__Jobs-styledTabList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+  }
   
   
   
@@ -748,3 +779,16 @@ a{
     left: 0%;
   }
 }
+
+
+
+.ng-star-inserted{
+  background-color: #FDD772 !important;
+}
+#rubic-widget-root{
+border: 2px solid #FDD772 !important;
+border-radius: 20px;
+}
+#rubic-widget-root button{
+background-color: #FDD772 !important;
+  }

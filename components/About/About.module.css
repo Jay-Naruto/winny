@@ -48,6 +48,7 @@ height: 100%;
     margin-bottom: 20px;
     height: 60%;
     font-family: 'Red Hat Display', sans-serif;
+    border-bottom: 5px solid #FCC427;
 }
 .about2 div{
     color: black;
@@ -134,12 +135,13 @@ font-family: 'Red Hat Display', sans-serif;
         align-items: center;
         width: 100%;
         margin-top: 0px;
+        height: max-content;
     
     }
     .aboutBox{
         display: flex;
         justify-content:flex-start;
-        align-items:center;
+        align-items:flex-start;
         flex-direction: column;
         position: relative;
         /* flex-wrap: wrap; */
@@ -178,6 +180,8 @@ font-family: 'Red Hat Display', sans-serif;
         margin-bottom: 20px;
         height: max-content;
         font-family: 'Red Hat Display', sans-serif;
+    border-bottom: 5px solid #FCC427;
+
     }
     .about2 div{
         color: black;
@@ -186,7 +190,7 @@ font-family: 'Red Hat Display', sans-serif;
     }
     .about2 p{
         color: black;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 400;
     
     }
@@ -198,13 +202,14 @@ font-family: 'Red Hat Display', sans-serif;
     }
     .about3Outer{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;  
-        width: 90%;
-        height: 100%;
+        width: 100%;
+        height: max-content;
         position: relative;
-        bottom: -16px;
+        bottom: 0px;
+        margin-top: 20px;
        
     }
     .about3Header{
@@ -215,10 +220,12 @@ font-family: 'Red Hat Display', sans-serif;
     }
     .about3Inner{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        flex-direction: column;
         gap: 20px;
-        padding: 15px;
+        padding: 15px 0px;
+        height: max-content;
         font-family: 'Red Hat Display', sans-serif;
     
     }
@@ -231,7 +238,8 @@ font-family: 'Red Hat Display', sans-serif;
         border-radius: 20px;
         padding: 15px;
         height: max-content;
-        height: 250px;
+        height: max-content;
+        background-color: white;
 
         position: relative;
     
@@ -244,7 +252,7 @@ font-family: 'Red Hat Display', sans-serif;
     }
     .about3InnerText{
         font-weight: 400;
-        font-size: 12px;
+        font-size: 16px;
     
         color: black; 
     }
@@ -255,9 +263,20 @@ font-family: 'Red Hat Display', sans-serif;
     .ellipse1{
         position: absolute;
         bottom: -120px;
-        left: 0px;
+        left: -100px;
         width: 100%;
         z-index: -1;
     }
+    .learnmore{
+       width: 100%;
+       position: relative;
+       z-index: 100;
+       margin-top: 20px;
+    }
+    .learnmore img{
+        width: 100%;
+        position: relative;
+        z-index: 100;
+     }
     
 }

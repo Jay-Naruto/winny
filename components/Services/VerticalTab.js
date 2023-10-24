@@ -4,14 +4,24 @@ import { Container, Row, Col } from "reactstrap";
 import VTlist from "./VTlist";
 import VTcontent from "./VTcontent";
 import styles from "./VerticalTab.module.css"
+import ReactHorizontalTimeline from "react-horizontal-timeline";
 
 function VerticalTab(props) {
   const [activeTabId, setActiveTabId] = useState(0);
 
   function btnClick(id) {
     setActiveTabId(id);
+    // alert(id)
   }
+  const VALUES = ["2023-01-1","2023-01-2","2023-01-3","2023-01-4","2023-01-5","2023-01-6","2023-01-7","2023-01-8"];
 
+  const [value, setValue] = useState(0);
+  const [previous, setPrevious] = useState(0);
+
+  const handleIndexClick = (index) => {
+    setValue(index);
+    setPrevious(value);
+  };
   return (
     <div id="services" className={styles.verticalBox}>
           <img className="looper" src="./Looper-4.png" alt=""/>
@@ -24,6 +34,10 @@ function VerticalTab(props) {
           Where service is paramount, your satisfaction is our top priority. From start to finish, our commitment to service never wavers.
           </p>
       </div>
+
+      {/* <div style={{ width: '90%', height: '100px', margin: '0 auto' }}>
+        <ReactHorizontalTimeline index={value} indexClick={handleIndexClick} values={VALUES} />
+      </div> */}
 
     <Container className="section__Jobs-container">
       <Row  className="section__Jobs-container2">
@@ -40,11 +54,18 @@ function VerticalTab(props) {
                 />
               ))}
             </ul>
+            <span className="timeline-divider"></span>
           </div>
         </Col>
         <Col sm="9" style={{position:'relative'}}>
           <img className="cardbkg" src="./card.png" alt=""/>
-          <img className="cardhouse" src="./Frame.png" alt=""/>
+          <img className="cardhouse" src=
+          {
+            activeTabId === 0 ?"./Frame.png" :activeTabId === 1 ? "./sv1.png" : activeTabId === 2 ? "./sv2.png": activeTabId === 3 ? "./sv3.png" : activeTabId === 4  ? "./sv4.png": activeTabId === 5 ? "./sv5.png" :null
+          }
+          
+          
+          alt=""/>
           <img className="cardellipse" src="./ellipse1.png" alt=""/>
 
 

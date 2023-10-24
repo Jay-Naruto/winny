@@ -19,20 +19,47 @@
 }
 
 @-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg) ;
+    100% { -moz-transform: rotate(-360deg) ;
     
     } 
 }
 @-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
+    100% { -webkit-transform: rotate(-360deg); } 
 }
 @keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(-360deg); 
+
+    } 
+}
+
+
+.roadmapRing{
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    /* transform: translate(-50%,-50%); */
+    z-index: 100;
+    -webkit-animation:spinr 10s linear infinite;
+    -moz-animation:spinr 10s linear infinite;
+    animation:spinr 10s linear infinite;
+    width: 40%;
+}
+
+@-moz-keyframes spinr { 
+    100% { -moz-transform: rotate(360deg) ;
+    
+    } 
+}
+@-webkit-keyframes spinr { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spinr { 
     100% { 
         -webkit-transform: rotate(360deg); 
 
     } 
 }
-
 .roadmapBack{
     position: absolute;
     top: 60%;

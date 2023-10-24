@@ -108,17 +108,17 @@ background-color: #F0F0F0;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 15px;
     background-color: #F8F8F8;
     }
     .founderBoxRow1Img{
         width: 100%;
     }
-    .founderBoxRow1Img img{width: 100%;}
+    .founderBoxRow1Img img{height: 100%;}
     .founderBoxRowContent{
         display: flex;
         justify-content: flex-start;
@@ -127,21 +127,19 @@ background-color: #F0F0F0;
         flex-direction: column;
         gap: 20px;
     }
-    .founderBoxRowContent img{cursor: pointer;}
-    .founderBoxRowContent2 img{cursor: pointer;}
+    .founderBoxRowContent img{cursor: pointer;width: 100px;}
+    .founderBoxRowContent2 img{cursor: pointer;width: 100px;}
     
     .founderBoxRow2{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-
+        flex-direction: row;
         font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 15px;
     background-color: #F0F0F0;
-    
     }
     .founderBoxRow2Img{
         width: 100%;

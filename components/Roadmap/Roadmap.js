@@ -9,6 +9,7 @@ export default function Roadmap() {
     <div id='roadmap' style={{position:'relative'}}>
         <img className={styles.roadmap} src={ isDesktopOrLaptop ? './roadmap2.png' : './roadmap.png'} alt=''/>
         <img className={styles.roadmapInside} src='./roadmapIn.png' alt=''/>
+        {/* <img className={styles.roadmapRing} src='./roadmapRing.png' alt=''/> */}
         <img className={styles.roadmapBack} src='./roadmapBack.png' alt=''/>
 
 

@@ -1,7 +1,11 @@
 import React from 'react'
 import styles from "./About.module.css"
 import Typewriter from 'typewriter-effect';
+import { useMediaQuery } from 'react-responsive';
 export default function About() {
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(max-width: 1000px)'
+      })
   return (
     <div id='about-us' className={styles.about}>
         <div className={styles.aboutBox}>
@@ -43,13 +47,25 @@ export default function About() {
                     </p>
                     <img className={styles.ellipse1} src='./ellipse1.png' alt=''/>
                 </div>
-                <span>
+         {
+            !isDesktopOrLaptop &&
+            <div className={styles.learnmore}>
+            <img src='./about3.png' alt=''/>
 
-                <img src='./about3.png' alt=''/>
+            </div>
+         }
 
-                </span>
+
+
 
                 </div>
+                {
+            isDesktopOrLaptop &&
+            <div className={styles.learnmore}>
+            <img src='./about3_m.png' alt=''/>
+
+            </div>
+         }
 
             </div>
 
