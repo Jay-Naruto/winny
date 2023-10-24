@@ -31,11 +31,11 @@ export default function Roadmap() {
     <div id='roadmap' style={{position:'relative'}}>
         <img class="reflection-grid-cell" className={styles.roadmap} src={ isDesktopOrLaptop ? './roadmap2.png' : './roadmap.png'} alt=''/>
         <img
-       className={`${styles.roadmapInside} roadmapInside`}
-            ref={elementRef}
-            style={{
-              transform: `rotate(${rotation}rad)`,
-          }}
+       className={`${styles.roadmapInside}`}
+          //   ref={elementRef}
+          //   style={{
+          //     transform: `rotate(${rotation}rad)`,
+          // }}
             alt=''
             src='./roadmapIn.png'
         />

@@ -39,7 +39,10 @@ export default function Swap() {
 
             <div>
             {/* <img className={styles.calc} src='./calc.png' alt=''/> */}
-            <div id="rubic-widget-root"></div>
+            <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-delay="200" 
+     data-aos-duration="1000" id="rubic-widget-root"></div>
 
             </div>
             <div className={styles.swapContent}>

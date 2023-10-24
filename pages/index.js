@@ -16,9 +16,10 @@ import Header from '@/components/Header/Header.js'
 import { useEffect, useState } from 'react'
 import Loading from '@/components/Loading.js'
 import dynamic from 'next/dynamic'
+import "animate.css/animate.min.css";
 const Roadmap = dynamic(() => import('@/components/Roadmap/Roadmap.js'), { ssr: false })
 const inter = Inter({ subsets: ['latin'] })
-
+import ScrollEffect from 'react-animate-on-scroll';
 export default function Home() {
   const [loader,setLoader]=useState(0)
   useEffect(()=>{
@@ -40,15 +41,21 @@ setLoader(0)
         <meta name="description" content="Trillioner" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/roadmapIn.png" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
         <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script>
         <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
         <script async src="https://static.coinstats.app/widgets/coin-chart-widget.js"></script>
         <script async src="https://static.coinstats.app/widgets/coin-price-widget.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+        <script>
+  AOS.init();
+</script>
       </Head>
       <Header/>
       <Landing/>
       <About/>
+
       <VerticalTab data={Data.jobs} />
       <Roadmap/>
       <PlayStore/>

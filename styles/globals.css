@@ -366,7 +366,7 @@ padding: 10px;
   
   .cardx {
     position: sticky;
-    top: 10%;
+    top: 20%;
     padding-top: 20px;
     height: max-content;
     display: flex;
@@ -792,6 +792,8 @@ border-radius: 20px;
 #rubic-widget-root button{
 background-color: #FDD772 !important;
   }
+
+
 
 
 

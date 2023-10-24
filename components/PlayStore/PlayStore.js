@@ -21,8 +21,8 @@ export default function PlayStore() {
                 <img src='./p2.png' alt='' />
                </div>
             </div>
-            <div className={styles.phone}>
-                <img src='./phone.png' alt=''/>
+            <div  className={styles.phone}>
+                <img  data-aos="zoom-in" data-aos-delay="200" src='./phone.png' alt=''/>
             </div>
 
         </div>

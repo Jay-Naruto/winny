@@ -9,10 +9,10 @@ export default function About() {
   return (
     <div id='about-us' className={styles.about}>
         <div className={styles.aboutBox}>
-            <div className={styles.about1}>
+            <div  data-aos="zoom-in-down" className={styles.about1}>
                 <img src='./about1.png' alt=''/>
             </div>
-            <div className={styles.about2Outer} >
+            <div  data-aos="zoom-in-down"  data-aos-delay="300" className={styles.about2Outer} >
                 <div className={styles.about2}>
 
                         <div>
@@ -32,7 +32,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div id='mission' className={styles.about3Outer}>
+            <div  data-aos="zoom-in-down" data-aos-delay="600"  id='mission' className={styles.about3Outer}>
                 <div className={styles.about3Header}>
                 About Trillioner
                 </div>

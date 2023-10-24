@@ -23,7 +23,7 @@ function VerticalTab(props) {
     setPrevious(value);
   };
   return (
-    <div id="services" className={styles.verticalBox}>
+    <div  data-aos="fade-up"  id="services" className={styles.verticalBox}>
           <img className="looper" src="./Looper-4.png" alt=""/>
 
       <div className={styles.verticalInnerBox}>

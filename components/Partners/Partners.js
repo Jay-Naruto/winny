@@ -8,7 +8,7 @@ export default function Partners() {
       })
   return (
     <div className={styles.partners}>
-        <img className={styles.spAll} src= 
+        <img data-aos="fade-up" className={styles.spAll} src= 
         { isDesktopOrLaptop ? "./sp2.png" : './sp.png'} alt=''/>
         <div>
             <CardsComp/>
@@ -40,7 +40,7 @@ export default function Partners() {
                 <div
                 className={styles.projectSqImg} 
                 >
-            <img  src='./projectSqImg.png' alt=''/>
+            <img data-aos="flip-down" data-aos-delay="300"  src='./projectSqImg.png' alt=''/>
                 
                 </div>
 
