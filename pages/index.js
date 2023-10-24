@@ -16,10 +16,8 @@ import Header from '@/components/Header/Header.js'
 import { useEffect, useState } from 'react'
 import Loading from '@/components/Loading.js'
 import dynamic from 'next/dynamic'
-import "animate.css/animate.min.css";
 const Roadmap = dynamic(() => import('@/components/Roadmap/Roadmap.js'), { ssr: false })
 const inter = Inter({ subsets: ['latin'] })
-import ScrollEffect from 'react-animate-on-scroll';
 export default function Home() {
   const [loader,setLoader]=useState(0)
   useEffect(()=>{
