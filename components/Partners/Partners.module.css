@@ -124,9 +124,10 @@ align-items: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 80%;
+    width: 90%;
     font-family: 'Red Hat Display', sans-serif;
     margin-top: 100px;
+    z-index: 1000;
 
 }
 .spContent img{
