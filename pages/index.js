@@ -6,7 +6,6 @@ import Landing from '@/components/Landing/Landing'
 import About from '@/components/About/About'
 import VerticalTab from '@/components/Services/VerticalTab'
 import Data from "../data.js";
-import Roadmap from '@/components/Roadmap/Roadmap.js'
 import PlayStore from '@/components/PlayStore/PlayStore.js'
 import Future from '@/components/Future/Future.js'
 import Swap from '@/components/Swap/Swap.js'
@@ -16,7 +15,8 @@ import Footer from '@/components/Footer/Footer.js'
 import Header from '@/components/Header/Header.js'
 import { useEffect, useState } from 'react'
 import Loading from '@/components/Loading.js'
-
+import dynamic from 'next/dynamic'
+const Roadmap = dynamic(() => import('@/components/Roadmap/Roadmap.js'), { ssr: false })
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

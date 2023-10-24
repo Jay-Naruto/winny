@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap');
 
 .spAll{
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,19 +101,21 @@ align-items: center;
 }
 @media screen and (max-width:1000px) {
    
-.spAll{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
+
 .partners{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+}
+.spAll{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .spContent{

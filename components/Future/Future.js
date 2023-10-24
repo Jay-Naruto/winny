@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from "./Future.module.css"
+import { useMediaQuery } from 'react-responsive'
 export default function Future() {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(max-width: 1000px)'
+  })
   return (
     <div className={styles.future}>
          <img className={styles.ring} src='./ring.png' alt=''/>
@@ -21,6 +25,8 @@ export default function Future() {
          {/* <img src='./table.png' alt=''/> */}
          {/* <div class="livecoinwatch-widget-3" lcw-base="INR" lcw-d-head="true" lcw-d-name="true" lcw-d-code="true" lcw-d-icon="true" lcw-color-tx="#ffffff" lcw-color-bg="#fff" lcw-border-w="1" ></div> */}
 {/* <coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,litecoin,tether,binancecoin,solana,trillioner" currency="inr" locale="en" width="0"></coingecko-coin-list-widget> */}
+{/* <img className={styles.ring2} src='./ring.png' alt=''/> */}
+
 <coin-stats-ticker-widget coin-id="trillioner" locale="en" currency="USD" background="#fff" text-color="#000" border-color="rgba(0,0,0,0.15)" type="medium" font="Redhat" height="149" width="350" rank-background="#FFA959" status-up-color="#74D492" status-down-color="#FE4747" rank-text-color="#1C1B1B" ></coin-stats-ticker-widget>
 <coin-stats-ticker-widget class="g2" coin-id="trillioner" locale="en" currency="INR" background="#fff" text-color="#000" border-color="rgba(0,0,0,0.15)" type="medium" font="Redhat" height="149" width="350" rank-background="#FFA959" status-up-color="#74D492" status-down-color="#FE4747" rank-text-color="#1C1B1B" ></coin-stats-ticker-widget>
 

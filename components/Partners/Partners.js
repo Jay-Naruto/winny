@@ -8,10 +8,8 @@ export default function Partners() {
       })
   return (
     <div className={styles.partners}>
-        <div>
         <img className={styles.spAll} src= 
         { isDesktopOrLaptop ? "./sp2.png" : './sp.png'} alt=''/>
-        </div>
         <div>
             <CardsComp/>
         </div>

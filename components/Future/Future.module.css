@@ -53,13 +53,11 @@ text-transform: uppercase;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    position: relative;
 
 }
-.futureImg img{
-position: relative;
-/* bottom: -40px; */
-width: 100%;
-}
+
+
 .btns{
 display: flex;
 justify-content: center;
@@ -158,11 +156,7 @@ margin-top: 20px;
     .futureImg{
         width: 100%;
     }
-    .futureImg img{
-    position: relative;
-    /* bottom: -40px; */
-    width: 100%;
-    }
+
     .btns{
     display: flex;
     justify-content: center;
@@ -177,9 +171,9 @@ margin-top: 20px;
     }
     .ring{
         position: absolute;
-        width: 50%;
-        right: 20%;
-        top: -60px;
+        width: 90%;
+        right: 30%;
+        top: -70px;
         
         -webkit-animation:spin 10s linear infinite;
         -moz-animation:spin 10s linear infinite;
