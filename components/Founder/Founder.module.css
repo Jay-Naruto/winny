@@ -48,9 +48,10 @@ background-color: #F8F8F8;
     padding: 15px;
     flex-direction: column;
     gap: 20px;
+    font-size: 18px;
 }
-.founderBoxRowContent img{cursor: pointer;}
-.founderBoxRowContent2 img{cursor: pointer;}
+.founderBoxRowContent img{cursor: pointer;width: 120px;}
+.founderBoxRowContent2 img{cursor: pointer;width: 120px;}
 
 .founderBoxRow2{
     display: flex;
@@ -58,8 +59,7 @@ background-color: #F8F8F8;
     align-items: center;
     font-family: 'Red Hat Display', sans-serif;
 font-weight: 400;
-font-size: 20px;
-line-height: 26px;
+font-size: 18px;
 background-color: #F0F0F0;
 
 }
@@ -126,6 +126,14 @@ background-color: #F0F0F0;
         padding: 15px;
         flex-direction: column;
         gap: 20px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .founderBoxRow1Img{
+        width: 100%;
+    }
+    .founderBoxRow2Img{
+        width: 100%;
     }
     .founderBoxRowContent img{cursor: pointer;width: 100px;}
     .founderBoxRowContent2 img{cursor: pointer;width: 100px;}
@@ -141,9 +149,7 @@ background-color: #F0F0F0;
     line-height: 15px;
     background-color: #F0F0F0;
     }
-    .founderBoxRow2Img{
-        width: 100%;
-    }
+
     .founderBoxRow2Img img{width: 100%;}
     .founderBoxRowContent2{
         display: flex;

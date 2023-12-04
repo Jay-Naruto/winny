@@ -50,7 +50,9 @@ export default function About() {
          {
             !isDesktopOrLaptop &&
             <div className={styles.learnmore}>
-            <img src='./about3.png' alt=''/>
+                          <a target='_blank' href='./whitepaper.pdf'>
+              <img src='./about3.png' alt=''/>
+              </a>
 
             </div>
          }

@@ -22,7 +22,9 @@ export default function Landing() {
            
             </div>
             <div  className={styles.landingBtn} >
-                <img src='./bttn.png' alt=''/>
+              <a target='_blank' href='./whitepaper.pdf'>
+              <img src='./bttn.png' alt=''/>
+              </a>
            
             </div>
             <div className={styles.landingImage}>

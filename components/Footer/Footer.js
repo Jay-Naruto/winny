@@ -12,11 +12,11 @@ export default function Footer() {
                     The Trillioner crypto project aims to bridge the gap between traditional finance and the crypto world by offering financial services for both crypto projects and private users. This will include access to our products as well as traditional fiat banking and financial services for blockchain businesses and individuals.
                 </div>
                 <div className={styles.footerBoxLeftSocials}>
-                    <div>
+                    {/* <div>
                     <a target='_blank' href=''>
                     <img src='./Instagram Icon.png' alt=''/>
                     </a>
-                    </div>
+                    </div> */}
                     <div>
                     <a target='_blank' href='https://www.facebook.com/Trillionertoken'>
                     <img src='./Facebook Icon.png' alt=''/>
@@ -44,11 +44,7 @@ export default function Footer() {
                         Mission
                         </a>
                     </li>
-                    <li>
-                    <a href='#services'>
-                       Services
-                        </a>
-                    </li>
+
                     <li>
                     <a href='#roadmap'>
                         Roadmap
@@ -60,6 +56,11 @@ export default function Footer() {
                 <div>
                 <ul>
                 <li>
+                    <a href='#services'>
+                       Services
+                        </a>
+                    </li>
+                {/* <li>
                 <a href='#team'>
                        Team
                         </a>
@@ -68,7 +69,7 @@ export default function Footer() {
                     <a href='#tokenomics'>
                         Tokenomics
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                     <a href='#media'>
                        Media

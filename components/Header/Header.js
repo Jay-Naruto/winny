@@ -40,7 +40,7 @@ export default function Header() {
                         Services
                     </a>
                 </div>
-                <div>
+                {/* <div>
                     <a href='#team'>
                         Team
                     </a>
@@ -49,7 +49,7 @@ export default function Header() {
                     <a href='#tokenomics'>
                         Tokenomics
                     </a>
-                </div>
+                </div> */}
                 <div>
                     <a href='#media'>
                         Media

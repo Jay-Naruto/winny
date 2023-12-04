@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap');
 
 .spAll{
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +111,7 @@ align-items: center;
     text-align: center;
 }
 .spAll{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

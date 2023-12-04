@@ -14,10 +14,13 @@ export default function Founder() {
                     </div>
                     <div className={styles.founderBoxRowContent}>
                         <div>
-                        Lavish Choudhary reveals expert tips for building a successful business
+                        The Remarkable Rise Of Lavish Choudhry: A Businessman's Journey From Small Town To Global Stage
                         </div>
-                        <div>
-         <img src='./check.png' alt=''/>
+                        <div >
+                            <a target='_blank' href='https://news.abplive.com/brand-wire/the-remarkable-rise-of-lavish-choudhry-a-businessman-s-journey-from-small-town-to-global-stage-1588119'>
+                            <img src='./check.png' alt=''/>
+
+                            </a>
                         </div>
                     </div>
 
@@ -26,14 +29,17 @@ export default function Founder() {
 
                 <div data-aos="fade-down" data-aos-delay="300" className={styles.founderBoxRow2}>
                     <div className={styles.founderBoxRow2Img}>
-                         <img src='./media2.png' alt=''/>
+                         <img src='https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20221021080513.jpg' alt=''/>
                     </div>
                     <div className={styles.founderBoxRowContent2}>
                         <div>
-                        Lavish Choudhary reveals expert tips for building a successful business
+                       Award-winning Social Entrepreneur Lavish Choudhary launches Realty Company
                         </div>
-                        <div>
-         <img src='./check.png' alt=''/>
+                        <div  >
+                        <a target='_blank' href='https://news.abplive.com/brand-wire/the-remarkable-rise-of-lavish-choudhry-a-businessman-s-journey-from-small-town-to-global-stage-1588119'>
+                            <img src='./check.png' alt=''/>
+
+                            </a>
                         </div>
                     </div>
 
