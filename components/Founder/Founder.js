@@ -18,7 +18,7 @@ export default function Founder() {
                         </div>
                         <div >
                             <a target='_blank' href='https://news.abplive.com/brand-wire/the-remarkable-rise-of-lavish-choudhry-a-businessman-s-journey-from-small-town-to-global-stage-1588119'>
-                            <img src='./check.png' alt=''/>
+                            <img src='./bttn.svg' alt=''/>
 
                             </a>
                         </div>
@@ -37,7 +37,7 @@ export default function Founder() {
                         </div>
                         <div  >
                         <a target='_blank' href='https://www.aninews.in/news/business/business/award-winning-social-entrepreneur-lavish-choudhary-launches-realty-company20221021133602/'>
-                            <img src='./check.png' alt=''/>
+                            <img src='./bttn.svg' alt=''/>
 
                             </a>
                         </div>

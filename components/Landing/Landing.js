@@ -21,12 +21,22 @@ export default function Landing() {
                             />
            
             </div>
-            <div  className={styles.landingBtn} >
+            {/* <div  className={styles.landingBtn} >
               <a target='_blank' href='./whitepaper.pdf'>
               <img src='./bttn.png' alt=''/>
               </a>
            
+            </div> */}
+            <div>
+            <a style={{color:'black'}} target='_blank' href='./whitepaper.pdf'>
+            <div className={styles.btn_flex} >
+              
+              <div>Whitepaper</div>
+              <img src='./arrow.png' alt=''/>
             </div>
+            </a>
+            </div>
+
             <div className={styles.landingImage}>
             <img src='./front_bg.png' alt=''/>
 

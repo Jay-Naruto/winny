@@ -52,7 +52,27 @@ cursor: pointer;
     width: 100%;
     height: auto;
 }
-
+.btn_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 220px;
+    gap: 20px;
+    background: linear-gradient(180deg, #FDD772 0%, #FBBD18 100%);
+background-blend-mode: overlay;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: bold;
+    border-radius: 30px;
+    padding: 20px 0;
+}
+.btn_flex img{
+    height: 10px;
+    width: auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
 @media screen and (max-width:1000px) {
     .looper{
         position: absolute;
@@ -105,5 +125,20 @@ cursor: pointer;
     .landingImage img{
         width: 100%;
         height: auto;
+    }
+    .btn_flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 200px;
+        gap: 20px;
+        background: linear-gradient(180deg, #FDD772 0%, #FBBD18 100%);
+    background-blend-mode: overlay;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+        border-radius: 30px;
+        font-size: 15px;
+        padding: 15px 0;
     }
 }

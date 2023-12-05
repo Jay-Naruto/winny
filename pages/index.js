@@ -34,11 +34,15 @@ setLoader(0)
         <Loading/>
         :
         <>
+
       <Head>
         <title>Trillioner</title>
         <meta name="description" content="Trillioner" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/roadmapIn.png" />
+        <link rel="shortcut icon" href="./roadmapIn.ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="./roadmapIn.ico" />
+          <link rel="icon"  sizes="32x32" href="./roadmapIn.ico"/>
+          <link rel="icon"  sizes="16x16" href="./roadmapIn.ico"/>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
         <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script>
         <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>

@@ -50,8 +50,8 @@ export default function About() {
          {
             !isDesktopOrLaptop &&
             <div className={styles.learnmore}>
-                          <a target='_blank' href='./whitepaper.pdf'>
-              <img src='./about3.png' alt=''/>
+             <a target='_blank' href='./whitepaper.pdf'>
+              <img src='./Group 2650.svg' alt=''/>
               </a>
 
             </div>
@@ -64,7 +64,9 @@ export default function About() {
                 {
             isDesktopOrLaptop &&
             <div className={styles.learnmore}>
-            <img src='./about3_m.png' alt=''/>
+                        <a target='_blank' href='./whitepaper.pdf'>
+              <img src='./Group 2650 (1).svg' alt=''/>
+              </a>
 
             </div>
          }
