@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
         </div>
         <div className={styles.foot}>
-        © 2023 Trillioner. All Rights Reserved by QFX Market
+        © 2023 Trillioner. All Rights Reserved by TLC
         </div>
     </div>
   )
