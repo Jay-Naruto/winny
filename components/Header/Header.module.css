@@ -86,6 +86,11 @@
     right: 0px;
     color: white !important;
 }
+.menu{
+  width: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
 
 @keyframes slideIn {
   from {
@@ -109,5 +114,9 @@
   to {
     left: -100%; /* Slide off-screen to the left */
   }
+}
+.logo{
+  width: 90px;
+  cursor: pointer;
 }
 }

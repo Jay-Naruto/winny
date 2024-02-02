@@ -15,7 +15,7 @@ export default function Header() {
                 open ?
                 <img onClick={()=>{setOpen(0)}} className={styles.menu} src='./cross2.png' alt=''/>
                     :
-          <img onClick={()=>{setOpen(1)}} color='white' src='./menu2.png' alt=''/>
+          <img onClick={()=>{setOpen(1)}}  className={styles.menu}  color='white' src='./menu2.png' alt=''/>
 
             }
             {

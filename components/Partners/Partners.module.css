@@ -191,11 +191,11 @@ align-items: center;
     font-family: 'Red Hat Display', sans-serif;
     margin-top: 0px;
     z-index: 1000;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .spContent img{
-    width: 150px;
+    width: 100px;
 }
 .spContent div{
     font-family: 'Red Hat Display', sans-serif;
