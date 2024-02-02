@@ -7,33 +7,33 @@ export default function Future() {
   })
   return (
     <div className={styles.future}>
-         <img className={styles.ring} src='./ring.png' alt=''/>
-         <img className={styles.ellipse} src='./Looper-5.png' alt=''/>
-
+      <img className={styles.landingbkg} src='./landingbkg.png' alt=''/>
 
         <div  className={styles.futureBox}>
             <div  className={styles.futureContent}>
-            <div>
-            Dive into the future of wealth with Trillionaire Coin
+            <div className={styles.textPink}>
+            A Community For Gamers
             </div>
-            <p>
-            Where blockchain meets boundless possibilities in every transaction.
+            <div  className={styles.textWhite}>
+            by Winny
+            </div>
+            <div  className={styles.textSmallWhite}>
+            Meet, network, make new friends play together and <strong>WIN BIG</strong>
+            </div>
 
-            </p>
+            <div className={styles.btnRow}>
+                <div  className={styles.btn1}>
+<img src='./download.png' alt=''/>
+                </div>
+                <div className={styles.btn1}>
+                <img src='./works.png' alt=''/>
+                </div>
+            </div>
+
             </div>
             <div  className={styles.futureImg}>
-         {/* <img src='./table.png' alt=''/> */}
-         {/* <div class="livecoinwatch-widget-3" lcw-base="INR" lcw-d-head="true" lcw-d-name="true" lcw-d-code="true" lcw-d-icon="true" lcw-color-tx="#ffffff" lcw-color-bg="#fff" lcw-border-w="1" ></div> */}
-{/* <coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,litecoin,tether,binancecoin,solana,trillioner" currency="inr" locale="en" width="0"></coingecko-coin-list-widget> */}
-{/* <img className={styles.ring2} src='./ring.png' alt=''/> */}
-<div data-aos="zoom-in-up"   data-aos-delay="300">
-<coin-stats-ticker-widget   coin-id="trillioner" locale="en" currency="USD" background="#fff" text-color="#000" border-color="rgba(0,0,0,0.15)" type="medium" font="Redhat" height="149" width="350" rank-background="#FFA959" status-up-color="#74D492" status-down-color="#FE4747" rank-text-color="#1C1B1B" ></coin-stats-ticker-widget>
+              <img src='./mobile.png' alt=''/>
 
-</div>
-<div data-aos="zoom-in-up"   data-aos-delay="400">
-<coin-stats-ticker-widget   class="g2" coin-id="trillioner" locale="en" currency="INR" background="#fff" text-color="#000" border-color="rgba(0,0,0,0.15)" type="medium" font="Redhat" height="149" width="350" rank-background="#FFA959" status-up-color="#74D492" status-down-color="#FE4747" rank-text-color="#1C1B1B" ></coin-stats-ticker-widget>
-
-</div>
 
             </div>
 

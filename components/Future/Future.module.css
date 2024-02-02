@@ -1,33 +1,45 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+.landingbkg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, transparent);
+}
 .future{
 display: flex
 ;
 justify-content: center;
 align-items: center;
 width: 100%;
-margin-top: 200px;
+margin-top: 0;
+height: 100vh;
 position: relative;
 }
 .futureBox{
     display: flex ;
     justify-content: center;
     align-items: center;
-    width: 70%; 
+    width: 80%; 
     gap: 100px;
-    /* padding: 30px; */
-    /* border: 1px solid #62626257; */
-    /* background-image: url(./bkg_ellipse.png); */
-    /* background-size: cover; */
+
     position: relative;
 }
-.futureEllipse{
-    position: absolute;
-width: 60%;
-top: -250px;
-right: -300px;
+.futureImg img {
+    animation: tilt-shaking 2s infinite cubic-bezier(0.25, 0.1, 0.25, 1);
 }
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
 .futureContent{
     display: flex ;
     justify-content: flex-start;
@@ -35,40 +47,60 @@ right: -300px;
     flex-direction: column;
 }
 .futureBox div{
-    font-family: 'Red Hat Display', sans-serif;
-font-weight: 700;
-font-size: 40px;
+
 text-transform: uppercase;
 }
-.futureContent p{
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-transform: lowercase capitalize;
+.textPink{
+    background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+    linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 75px;
+font-weight: 700;
 
+    font-family: "Righteous", sans-serif;
+}
+.textWhite{
+    color: white;
+    font-size: 75px;
+font-weight: 700;
+
+    font-family: "Righteous", sans-serif;
+}
+.textSmallWhite{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter !important;
+    font-family: "Open Sans", sans-serif;
 }
 .futureImg{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content:center;
+    align-items:center;
     flex-direction: column;
     position: relative;
 
 }
 
-
-.btns{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
-margin-top: 20px;
+.btnRow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
 }
-.btns img{
-    height: 70px;
-    width: auto;
+.btn1 img{
+    width:auto;
+    height: 40px;
     cursor: pointer;
+}
+.btn2 img{
+    width:auto;
+    height:40px;
+    cursor: pointer;
+
 }
 .ring{
     position: absolute;
@@ -103,14 +135,20 @@ margin-top: 20px;
 }
 
 @media screen and (max-width:1000px) {
-   
+    .landingbkg{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, transparent);
+    }
 .future{
     display: flex
     ;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 0px;
     position: relative;
     }
     .futureBox{
@@ -140,19 +178,7 @@ margin-top: 20px;
         /* text-align: flex-start; */
         margin-top: 50px;
     }
-    .futureBox div{
-        font-family: 'Red Hat Display', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    text-transform: uppercase;
-    }
-    .futureContent p{
-        font-family: 'Red Hat Display', sans-serif;
-        font-weight: 300;
-        font-size: 18px;
-        text-transform: lowercase capitalize;
-    
-    }
+  
     .futureImg{
         width: 100%;
     }
@@ -193,5 +219,33 @@ margin-top: 20px;
         flex-direction: column;
         gap: 50px;
     
+    }
+    .futureImg img{
+        width: 60%;
+        margin-top: 50px;
+    }
+    .textPink{
+        background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+        linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 50px;
+    font-weight: 700;
+    
+        font-family: "Righteous", sans-serif;
+    }
+    .textWhite{
+        color: white;
+        font-size:50px;
+    font-weight: 700;
+    
+        font-family: "Righteous", sans-serif;
+    }
+    .textSmallWhite{
+        color: white;
+        font-size: 20px;
+        font-weight: lighter !important;
+        font-family: "Open Sans", sans-serif;
     }
 }

@@ -8,9 +8,7 @@
     justify-content: center;
     align-items: center;
     z-index: -1;
-    mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, transparent);
-    margin-top: 100px;
-
+   
 }
 .bkgBody{
     width: 100%;
@@ -54,7 +52,6 @@ font-weight: 400;
     z-index: 3;
     left: 20%;
   top: 0;
-  width: 150px;
 }
 .spContent img{
     width: 200px;
@@ -139,14 +136,9 @@ align-items: center;
 }
 .projectSqImg{
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    right: 0;
 }
 .projectSqImg img{
     width: 100%;
-    right: 0;
 }
 .projectEllipse{
     position: absolute;
@@ -166,6 +158,25 @@ align-items: center;
     top: 0px;
     left: 30px;
 }
+.footer{
+position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:80%;
+bottom: 0;
+font-family: "Righteous", sans-serif;
+color: rgba(255, 255, 255, 0.773);
+margin-bottom: 50px;
+}
+.footer1{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+
+    }
 @media screen and (max-width:1000px) {
    
 
@@ -178,7 +189,11 @@ align-items: center;
     text-align: center;
 }
 .spAll{
- margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .spContent{
@@ -187,30 +202,19 @@ align-items: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 100%;
+    width: 90%;
     font-family: 'Red Hat Display', sans-serif;
-    margin-top: 0px;
+    margin-top: 50px;
     z-index: 1000;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .spContent img{
-    width: 150px;
+    width: 100px;
+    position: relative;
+    top: -10px;
 }
-.spContent div{
-    font-family: 'Red Hat Display', sans-serif;
 
-    font-weight: 600;
-    font-size: 33px;
-}
-.spContent p{
-    font-family: 'Red Hat Display', sans-serif;
-    width: 90%;
-
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 22px;
-}
 .project{
     position: relative;
     width: 100%;
@@ -240,7 +244,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-width: 100%;
+width: 80%;
 }
 .projectSqImg{
     width: 100%;
@@ -266,52 +270,26 @@ width: 100%;
     right: -10px;
     transform: rotate(180deg);
 }
-.text1{
-    background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
-    linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
-    linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 50px;
-font-weight: 700;
-
-    font-family: "Righteous", sans-serif;
-}
-.text2{
-    color: white;
-    font-size: 50px;
-font-weight: 700;
-
-    font-family: "Righteous", sans-serif;
-}
-.text3{
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: "Open Sans", sans-serif;
-    width: 90%;
-}
-.el2{
+.footer{
     position: absolute;
-    left: 0;
-    width: 80%;
-    bottom: 10%;
-    z-index: 1;
-}
-.box{
-    position: absolute;
-    z-index: 3;
-    left: 20%;
-  top: -50px;
-  width: 20%;
-}
-.projectBody{
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    bottom: 0;
+    font-family: "Righteous", sans-serif;
+    color: rgba(255, 255, 255, 0.773);
+    margin-bottom: 10px;
+    font-size: 10px;
+    }
+    .footer1{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
     
-}
+        }
 }
 
 

@@ -1,116 +1,88 @@
-.roadmap{
+.ringBody{
     width: 100%;
     object-fit: cover;
     position: relative;
-    z-index: -1;
     height: 100%;
-    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 300px;
 }
-.roadmapInside{
-    position: absolute;
-    top: 46%;
-    left: 40%;
-    /* transform: translate(-50%,-50%); */
-    z-index: 100;
-    -webkit-animation:spin 10s linear infinite;
-    -moz-animation:spin 10s linear infinite;
-    animation:spin 10s linear infinite;
-    width: 20%;
-}
-
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(-360deg) ;
-    
-    } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(-360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(-360deg); 
-
-    } 
-}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-.roadmapRing{
-    position: absolute;
-    top: 24%;
-    left: 30%;
-    /* transform: translate(-50%,-50%); */
-    z-index: 100;
-    -webkit-animation:spinr 10s linear infinite;
-    -moz-animation:spinr 10s linear infinite;
-    animation:spinr 10s linear infinite;
-    width: 40%;
-}
 
-@-moz-keyframes spinr { 
-    100% { -moz-transform: rotate(360deg) ;
-    
-    } 
-}
-@-webkit-keyframes spinr { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spinr { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
 
-    } 
-}
+
 .roadmapBack{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 1;
-    animation: spin2 10s linear infinite;
-    height: 50%;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 0%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
     transform: scale(1.3);
 }
-
-@keyframes spin2 {
-    0% {
-        transform: translate(-50%, -50%) skewX(45deg) rotate(0deg) ;
-    }
-    /* 25% {
-        transform: translate(-50%, -50%) skewX(45deg) rotate(90deg) scale(1.2);
-    }
-    50% {
-        transform: translate(-50%, -50%) skewX(45deg) rotate(180deg) scale(1.4);
-    }
-    75% {
-        transform: translate(-50%, -50%) skewX(45deg) rotate(270deg) scale(1.3);
-    } */
-    100% {
-        transform: translate(-50%, -50%) skewX(45deg) rotate(360deg) ;
-    }
+.mobile4{
+    height: 800px;
+    position: absolute;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    left: 57%;
+    transform: translateX(-50%);
 }
+.textCenter{
+    font-family: "Righteous", sans-serif;
+    background: linear-gradient(38.88deg, #F5007E 5.48%, #D800D8 107.96%);
+  font-size: 250px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+z-index: -1;
+}
+
 
 
 @media screen and (max-width:1000px) {
-    .roadmapInside{
-        position: absolute;
-        top: 58%;
-        left: 41%;
-        /* transform: translate(-50%,-50%); */
-        z-index: 100;
-        -webkit-animation:spin 10s linear infinite;
-        -moz-animation:spin 10s linear infinite;
-        animation:spin 10s linear infinite;
-        width: 20%;
-    }
+    
     .roadmapBack{
         position: absolute;
         top: 60%;
         left: 50%;
         transform: translate(-50%,-50%);
         z-index: 1;
-        animation: spin2 10s linear infinite;
-        height: 50%;
-        width: 20%;
+        height: auto;
+        width: 100%;
         display: none;
     }
+    
+
+
+.mobile4{
+    height: auto;
+    width: 300px !important;
+    position: absolute;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    left: 54%;
+    transform: translateX(-50%);
+}
+.textCenter{
+    font-family: "Righteous", sans-serif;
+    background: linear-gradient(38.88deg, #F5007E 5.48%, #D800D8 107.96%);
+  font-size: 120px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+z-index: -1;
+}
+
 }

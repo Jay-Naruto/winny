@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
         </div>
         <div className={styles.foot}>
-        © 2023 Trillioner. All Rights Reserved by TLC
+        © 2023 Trillioner. All Rights Reserved by Trillioner (TLC)
         </div>
     </div>
   )
