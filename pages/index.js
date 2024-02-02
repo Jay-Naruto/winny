@@ -50,11 +50,7 @@ setLoader(0)
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
 
-        <Script
-        src="./main.js"
-        strategy="lazyOnload"
-
-      />
+  
         <script>
   AOS.init();
 </script>
