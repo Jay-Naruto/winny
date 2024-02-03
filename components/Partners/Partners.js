@@ -2,14 +2,16 @@ import React, { useEffect } from 'react'
 import styles from "./Partners.module.css"
 import CardsComp from '../CardsComp/CardsComp'
 import { useMediaQuery } from 'react-responsive'
+import Marquee from "react-fast-marquee";
+
 export default function Partners() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(max-width: 1000px)'
       })
 
   return (
-    <div className={styles.partners}>
-        <div className={styles.bkgBody}>
+    <div id='games' className={styles.partners}>
+        {/* <div className={styles.bkgBody}>
         <img  className={styles.spAll} src= 
         { isDesktopOrLaptop ? "./Section 3.png" : './Section 3.png'} alt=''/>
       
@@ -20,7 +22,7 @@ export default function Partners() {
             <img src='./download.png' alt=''/>
          
         </div>
-        </div>
+        </div> */}
         <img className={styles.el2} src='./el2.png' alt=''/>
  
         <div className={styles.project}>
@@ -50,7 +52,7 @@ export default function Partners() {
                 className={styles.projectSqImg} 
                 >
 
-<div className="wheel">
+{/* <div className="wheel">
 <div className="card">
     <img src="./g1.png" className="card1"/>
         <img src="./g2.png" className="card2"/>
@@ -80,10 +82,26 @@ export default function Partners() {
         <img src="./g2.png" className="card4"/>
     </div>
 
-    
 
-  
+    </div> */}
+    <div className='marqueebody'>
+    <Marquee direction='up' autoFill={true} className='marquee'>
+     <img src="./g1.png" className="cardM"/>
+     <img src="./g2.png" className="cardM"/>
+     <img src="./g3.png" className="cardM"/>
+
+     </Marquee>
+     <Marquee direction='down' autoFill={true} className='marquee2'>
+     <img src="./g4.png" className="cardM"/>
+     <img src="./g5.png" className="cardM"/>
+     <img src="./g6.png" className="cardM"/>
+
+     </Marquee>
     </div>
+
+     
+
+    
 
                 </div>
                 </div>

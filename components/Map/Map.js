@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import styles from "./Map.module.css"
 import { useMediaQuery } from 'react-responsive'
 import Popup from 'reactjs-popup';
+import { Fade } from 'react-awesome-reveal';
 
 export default function Map() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -9,13 +10,16 @@ export default function Map() {
   })
 
   return (
-    <div id='roadmap' className={styles.ringBody} style={{position:'relative'}}>
+    <div id='map' className={styles.ringBody} style={{position:'relative'}}>
 
         <img className={styles.roadmapBack} src='./multiring.png' alt=''/>
-        <img className={styles.coins} src='./coins.png' alt=''></img>
+        {/* <img className={styles.coins} src='./coins.png' alt=''></img> */}
             <div className={styles.title}>
             People Using Winny
             </div>
+
+            <Fade direction='down' delay={500} style={{width:'100%'}}>
+
         <div className={styles.mapBody} style={{position:'relative'}}>
 
 
@@ -140,6 +144,7 @@ export default function Map() {
 
 
         </div>
+        </Fade>
 
 
 

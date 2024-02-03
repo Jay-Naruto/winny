@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Future.module.css"
 // import { Tilt } from 'react-tilt'
-
+import { Fade } from "react-awesome-reveal";
 import { useMediaQuery } from 'react-responsive'
 
 const defaultOptions = {
@@ -48,9 +48,9 @@ export default function Future() {
 
             </div>
             <div  className={styles.futureImg}>
-            {/* <Tilt options={defaultOptions}> */}
+            <Fade className={styles.center} direction='right'>
               <img src='./mobile.png' alt=''/>
-              {/* </Tilt> */}
+              </Fade>
 
 
             </div>

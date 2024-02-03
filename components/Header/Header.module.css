@@ -32,7 +32,19 @@
 {
     display: none;
 }
-
+.menulinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Righteous', sans-serif;
+  background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+  linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
 .menubox
 { 
     font-family: 'Red Hat Display', sans-serif;
@@ -84,7 +96,17 @@
     gap: 20px;
     animation: slideIn 0.5s forwards; /* Apply the slide-in animation */
     right: 0px;
-    color: white !important;
+    /* color: white !important; */
+    
+}
+.menubox div{
+  font-family: 'Righteous', sans-serif;
+  background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+  linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
 }
 .menu{
   width: 20px;

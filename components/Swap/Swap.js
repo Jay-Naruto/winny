@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./Swap.module.css"
+import { Fade } from 'react-awesome-reveal'
+import { useMediaQuery } from 'react-responsive'
 
 export default function Swap() {
-
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(max-width: 1000px)'
+      })
 
   return (
-    <div className={styles.swap}>
+    <div id='about' className={styles.swap}>
         <img className={styles.confetti} src='./confetti.png' alt=''/>
 
         <div className={styles.swapInside}>
+        <Fade style={{zIndex: !isDesktopOrLaptop ? -2 : 2}} direction='left'>
         <img className={styles.dots} src='./mobile3.png' alt=''/>
+        </Fade>
          
             <div className={styles.swapContent}>
         <img className={styles.el1} src='./el1.png' alt=''/>

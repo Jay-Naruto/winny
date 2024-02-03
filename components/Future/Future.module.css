@@ -219,8 +219,17 @@ font-weight: 700;
         gap: 50px;
     
     }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .futureImg img{
-        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
         margin-top: 50px;
     }
     .textPink{

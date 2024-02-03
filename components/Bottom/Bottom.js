@@ -7,7 +7,7 @@ export default function Bottom() {
         query: '(max-width: 1000px)'
       })
   return (
-    <div className={styles.partners}>
+    <div id='footer' className={styles.partners}>
         <div className={styles.bkgBody}>
         <img  className={styles.spAll} src= 
         { isDesktopOrLaptop ? "./Section 6.png" : './Section 6.png'} alt=''/>

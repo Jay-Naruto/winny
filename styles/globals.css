@@ -823,7 +823,7 @@ background-color: #FDD772 !important;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 1000px;
+    height: 700px;
     overflow-y: hidden; /* Change overflow-y to hidden */
     position: relative; /* Add position relative */
     mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 1) 10%, transparent);
@@ -919,3 +919,85 @@ margin-top: 50px;
 }
 }
 
+.marqueebody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.marquee{
+  position: absolute !important;
+  width: 600px !important;
+
+}
+.marquee2{
+  position: absolute !important;
+  right: 200px;
+  width: 600px !important;
+
+}
+.rfm-child img{
+  margin:  50px !important;
+}
+.cardM{
+  width: 300px !important;
+  margin: 20px;
+}
+@media screen and (max-width:500px) {
+  .marqueebody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+  .marquee{
+    position: relative !important;
+    width: 100% !important;
+  
+  }
+  .marquee2{
+    position: relative !important;
+    right: 0px;
+    width: 100% !important;
+  
+  }
+  .rfm-child img{
+    margin:  30px !important;
+  }
+  .cardM{
+    width: 150px !important;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .marqueebody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+  .marquee{
+    position: relative !important;
+    width: 100% !important;
+  
+  }
+  .marquee2{
+    position: relative !important;
+    right: 0px;
+    width: 100% !important;
+  
+  }
+  .rfm-child img{
+    margin:  50px !important;
+  }
+  .cardM{
+    width: 300px ;
+  }
+}
+
+body{
+  overflow-x: hidden !important ;
+}

@@ -50,6 +50,17 @@
     left: 57%;
     transform: translateX(-50%);
 }
+@keyframes fade-in {
+    from {
+       opacity: 0;
+       /* Start with 0 opacity */
+    }
+    to {
+       opacity: 1;
+       /* transition to full opacity */
+    }
+ }
+
 .textCenter{
     font-family: "Righteous", sans-serif;
     background: linear-gradient(38.88deg, #F5007E 5.48%, #D800D8 107.96%);
@@ -57,6 +68,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 z-index: -1;
+
 }
 
 
@@ -76,7 +88,7 @@ z-index: -1;
     
 
 
-.mobile4{
+.mobile4 img{
     height: auto;
     width: 300px !important;
     position: absolute;

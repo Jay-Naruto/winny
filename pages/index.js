@@ -7,8 +7,8 @@ import About from '@/components/About/About'
 import VerticalTab from '@/components/Services/VerticalTab'
 import Data from "../data.js";
 import PlayStore from '@/components/PlayStore/PlayStore.js'
-import Future from '@/components/Future/Future.js'
-import Swap from '@/components/Swap/Swap.js'
+// import Future from '@/components/Future/Future.js'
+// import Swap from '@/components/Swap/Swap.js'
 import Partners from '@/components/Partners/Partners.js'
 import Script from 'next/script';
 import Founder from '@/components/Founder/Founder.js'
@@ -17,9 +17,14 @@ import Header from '@/components/Header/Header.js'
 import { useEffect, useState } from 'react'
 import Loading from '@/components/Loading.js'
 import dynamic from 'next/dynamic'
-import Map from '@/components/Map/Map.js'
-import Bottom from '@/components/Bottom/Bottom.js'
+// import Map from '@/components/Map/Map.js'
+// import Bottom from '@/components/Bottom/Bottom.js'
 const Roadmap = dynamic(() => import('@/components/Roadmap/Roadmap.js'), { ssr: false })
+const Future = dynamic(() => import('@/components/Future/Future.js'), { ssr: false })
+const Swap = dynamic(() => import('@/components/Swap/Swap.js'), { ssr: false })
+const Map = dynamic(() => import('@/components/Map/Map.js'), { ssr: false })
+const Bottom = dynamic(() => import('@/components/Bottom/Bottom.js'), { ssr: false })
+
 // const Partners = dynamic(() => import('@/components/Partners/Partners.js'), { ssr: false })
 
 const inter = Inter({ subsets: ['latin'] })
