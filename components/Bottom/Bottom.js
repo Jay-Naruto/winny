@@ -9,7 +9,7 @@ export default function Bottom() {
   return (
     <div className={styles.partners}>
         <div className={styles.bkgBody}>
-        <img data-aos="fade-up" className={styles.spAll} src= 
+        <img  className={styles.spAll} src= 
         { isDesktopOrLaptop ? "./Section 6.png" : './Section 6.png'} alt=''/>
       
         <div className={styles.spContent}>

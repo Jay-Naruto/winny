@@ -9,7 +9,7 @@ export default function Swap() {
         <img className={styles.confetti} src='./confetti.png' alt=''/>
 
         <div className={styles.swapInside}>
-        <img data-aos="fade-up" className={styles.dots} src='./mobile3.png' alt=''/>
+        <img className={styles.dots} src='./mobile3.png' alt=''/>
          
             <div className={styles.swapContent}>
         <img className={styles.el1} src='./el1.png' alt=''/>

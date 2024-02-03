@@ -10,7 +10,7 @@ export default function Partners() {
   return (
     <div className={styles.partners}>
         <div className={styles.bkgBody}>
-        <img data-aos="fade-up" className={styles.spAll} src= 
+        <img  className={styles.spAll} src= 
         { isDesktopOrLaptop ? "./Section 3.png" : './Section 3.png'} alt=''/>
       
         <div className={styles.spContent}>

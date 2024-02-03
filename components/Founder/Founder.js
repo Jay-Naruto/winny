@@ -8,7 +8,7 @@ export default function Founder() {
             Founder in Media
             </div>
             <div className={styles.founderBoxRow} >
-                <div data-aos="fade-down" className={styles.founderBoxRow1}>
+                <div  className={styles.founderBoxRow1}>
                     <div className={styles.founderBoxRow1Img}>
                          <img src='./media1.png' alt=''/>
                     </div>
@@ -27,7 +27,7 @@ export default function Founder() {
                 </div>
 
 
-                <div data-aos="fade-down" data-aos-delay="300" className={styles.founderBoxRow2}>
+                <div  className={styles.founderBoxRow2}>
                     <div className={styles.founderBoxRow2Img}>
                          <img src='https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20221021080513.jpg' alt=''/>
                     </div>

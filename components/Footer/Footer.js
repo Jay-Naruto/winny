@@ -86,7 +86,7 @@ export default function Footer() {
 {/* <img src='./graph.png' alt=''/> */}
  {/* <div class="livecoinwatch-widget-1" lcw-coin="_TLC" lcw-base="INR" lcw-secondary="USDT" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-pr="#58c7c5" lcw-color-bg="#1f2434" lcw-border-w="1" ></div> */}
  <coin-stats-chart-widget
-//  data-aos="zoom-out-up"
+
  style={{width:'100%'}}
  class="coin-stats-ticker-widget"
  type="medium" coin-id="trillioner" width="435" chart-height="170" currency="INR" locale="en" bg-color="#1C1B1B" text-color="#FFFFFF" status-up-color="#74D492" status-down-color="#FE4747" buttons-color="#1C1B1B" chart-color="#FBBD18" chart-gradient-from="rgba(255,255,255,0.07)" chart-gradient-to="rgba(0,0,0,0)" chart-label-background="#000000" candle-grids-color="rgba(255,255,255,0.1)" border-color="rgba(255,255,255,0.15)" font="Roboto, Arial, Helvetica"></coin-stats-chart-widget>
