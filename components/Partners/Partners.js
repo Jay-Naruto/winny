@@ -6,9 +6,7 @@ export default function Partners() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(max-width: 1000px)'
       })
-      useEffect(() => {
 
-      }, []);
   return (
     <div className={styles.partners}>
         <div className={styles.bkgBody}>
@@ -50,6 +48,41 @@ export default function Partners() {
                 <div
                 className={styles.projectSqImg} 
                 >
+
+<div className="wheel">
+<div className="card">
+    <img src="./g1.png" className="card1"/>
+        <img src="./g2.png" className="card2"/>
+    </div>
+    <div className="card">
+    <img src="./g3.png" className="card3"/>
+        <img src="./g4.png" className="card4"/>
+    </div>
+    <div className="card">
+    <img src="./g5.png" className="card3"/>
+        <img src="./g6.png" className="card4"/>
+    </div>
+    <div className="card">
+    <img src="./g1.png" className="card3"/>
+        <img src="./g3.png" className="card4"/>
+    </div>
+    <div className="card">
+    <img src="./g3.png" className="card3"/>
+        <img src="./g4.png" className="card4"/>
+    </div>
+    <div className="card">
+    <img src="./g5.png" className="card3"/>
+        <img src="./g6.png" className="card4"/>
+    </div>
+    <div className="card">
+    <img src="./g1.png" className="card3"/>
+        <img src="./g2.png" className="card4"/>
+    </div>
+
+    
+
+  
+    </div>
 
                 </div>
                 </div>

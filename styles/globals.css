@@ -817,3 +817,103 @@ background-color: #FDD772 !important;
 
    
 
+  .wheel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+    overflow-y: hidden; /* Change overflow-y to hidden */
+    position: relative; /* Add position relative */
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 1) 10%, transparent);
+
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: slide 10s linear infinite; /* Use animation for infinite scrolling */
+    gap:20px;
+    margin: 10px;
+  }
+  
+  /* Keyframes for sliding animation */
+  @keyframes slide {
+    0% { transform: translateY(0%); }
+    100% { transform: translateY(-100%); } /* Adjust percentage based on the number of cards */
+  }
+.card1{
+  width: 300px !important;
+  height: auto;
+}
+.card2{
+  width: 300px !important;
+  height: auto;
+  position: relative;
+  bottom: 70px;
+}
+.card3{
+  width: 300px !important;
+  height: auto;
+}
+.card4{
+  width: 300px !important;
+  height: auto;
+  position: relative;
+  bottom: 65px;
+}
+
+@media screen and (max-width:1000px) {
+     
+
+  .wheel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    overflow-y: hidden; /* Change overflow-y to hidden */
+    position: relative; /* Add position relative */
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 1) 10%, transparent);
+margin-top: 50px;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: slide 3s linear infinite; /* Use animation for infinite scrolling */
+    gap:20px;
+    margin: 10px;
+  }
+  
+  /* Keyframes for sliding animation */
+  @keyframes slide {
+    0% { transform: translateY(0%); }
+    100% { transform: translateY(-100%); } /* Adjust percentage based on the number of cards */
+  }
+.card1{
+  width: 150px !important;
+  height: auto;
+}
+.card2{
+  width: 150px !important;
+  height: auto;
+  position: relative;
+  bottom: 70px;
+}
+.card3{
+  width: 150px !important;
+  height: auto;
+}
+.card4{
+  width: 150px !important;
+  height: auto;
+  position: relative;
+  bottom: 65px;
+}
+}
