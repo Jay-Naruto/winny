@@ -44,6 +44,7 @@ export default function Partners() {
                 </div>
 
                 </div>
+                {/* <img src="./bomb.png" className={styles.bomb}/> */}
 
                 <div
                 className={styles.projectSqImg} 

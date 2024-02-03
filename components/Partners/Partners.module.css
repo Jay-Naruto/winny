@@ -112,6 +112,11 @@ font-weight: 700;
 
     font-family: "Righteous", sans-serif;
 }
+.bomb{
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+}
 .text3{
     color: white;
     font-size: 20px;
