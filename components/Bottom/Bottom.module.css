@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -1;
+    z-index: -2;
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, transparent);
    
 }
 .bkgBody{
@@ -37,8 +38,9 @@
    position: absolute;
    z-index: 100px;
 color: white;
-    font-size: 75px;
+    font-size: 8vh;
 font-weight: 400;
+width: 100%;
 }
 .el2{
     position: absolute;
@@ -54,23 +56,10 @@ font-weight: 400;
   top: 0;
 }
 .spContent img{
-    width: 200px;
+    width: 150px;
 }
 
-.spContent div{
-    font-family: 'Red Hat Display', sans-serif;
 
-    font-weight: 600;
-    font-size: 64px;
-}
-.spContent p{
-    font-family: 'Red Hat Display', sans-serif;
-    width: 60%;
-
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 33px;
-}
 .project{
     position: relative;
     width: 100%;

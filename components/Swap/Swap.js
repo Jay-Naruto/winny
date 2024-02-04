@@ -13,11 +13,12 @@ export default function Swap() {
         <img className={styles.confetti} src='./confetti.png' alt=''/>
 
         <div className={styles.swapInside}>
+
         <Fade style={{zIndex: !isDesktopOrLaptop ? -2 : 2}} direction='left'>
         <img className={styles.dots} src='./mobile3.png' alt=''/>
         </Fade>
          
-            <div className={styles.swapContent}>
+         <div className={styles.swapContent}>
         <img className={styles.el1} src='./el1.png' alt=''/>
         <img className={styles.pirate} src='./pirate.png' alt=''/>
 

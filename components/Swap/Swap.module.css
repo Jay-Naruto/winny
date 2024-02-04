@@ -5,19 +5,20 @@
 .swap{
     position: relative;
     margin-top: 100px;
-    padding:100px 50px;
+    padding:10px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .el1{
     position: absolute;
     z-index: -1;
     width: 100%;
     
-    left: 100%;
-    top: 50%;
-    transform: translate(-50%,-50%) scale(1.5);
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%) scale(3);
     /* display: none; */
 }
 .confetti{
@@ -38,11 +39,10 @@
     justify-content: center;
     align-items: center;
     gap: 0px;
-    width: 80%;
+    width: 85%;
 }
 .dots{
-    height: 700px;
-    width: auto;
+    width: 70vh;
     z-index: 0;
     z-index: -2;
 }
@@ -53,16 +53,17 @@
     text-align: left; 
     flex-direction: column;
     width: 100%;
+    position: relative;
+    left: -50px;
     
 }
 .pirate{
     position: absolute;
     z-index: -1;
-    width: 200px;
+    width: 140px;
     
-    right: 0%;
-    bottom: 0%;
-    transform: translate(-50%,50%) ;
+    right: -50px;
+    bottom: -100px;
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
@@ -79,7 +80,7 @@
 .swapH1{
     font-family: 'Righteous', sans-serif;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 8vh;
     color: white;
 }
 .swapH2{
@@ -91,20 +92,20 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    font-size: 120px;
+    font-size: 12vh;
     margin: 15px 0;
 }
 .swapP{
-    font-family: 'Sans Serif', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2vh;
+    /* line-height: 30px; */
     color: white;
     width: 70%;
   
 }
 .swapBtn img{
-    width: 200px;
+    width: 150px;
     margin-top: 30px;
     cursor: pointer;
 }

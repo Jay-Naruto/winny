@@ -13,7 +13,7 @@ export default function Bottom() {
         { isDesktopOrLaptop ? "./Section 6.png" : './Section 6.png'} alt=''/>
       
         <div className={styles.spContent}>
-        Lorem ipsum dolor sit amet
+        Become a part of the<br></br>community
             <br></br><br>
             </br>
             <img src='./download.png' alt=''/>

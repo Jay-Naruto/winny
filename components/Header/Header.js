@@ -19,9 +19,9 @@ export default function Header() {
             <div className={styles.menulinks}>
                 <div><a href='/'>Home</a></div>
                 <div><a href='#about'>About</a></div>
+                <div><a href='#roadmap'>Roadmap</a></div>
                 <div><a href='#games'>Games</a></div>
-                <div><a href='#map'>Map</a></div>
-                <div><a href='#footer'>Footer</a></div>
+
             </div>
             :
             
@@ -37,41 +37,11 @@ export default function Header() {
             {
                 open === 1 ?
                 <div className={styles.menubox}>
-                <div>
-                    <a href='/'>
-                        Home
-                    </a>
-                </div>
-                <div>
-                    <a href='#about-us'>
-                        About Us
-                    </a>
-                </div>
-                <div>
-                    <a href='#mission'>
-                        Mission
-                    </a>
-                </div>
-                <div>
-                    <a href='#services'>
-                        Services
-                    </a>
-                </div>
-                {/* <div>
-                    <a href='#team'>
-                        Team
-                    </a>
-                </div>
-                <div>
-                    <a href='#tokenomics'>
-                        Tokenomics
-                    </a>
-                </div> */}
-                <div>
-                    <a href='#media'>
-                        Media
-                    </a>
-                </div>
+                <div><a href='/'>Home</a></div>
+                <div><a href='#about'>About</a></div>
+                <div><a href='#roadmap'>Roadmap</a></div>
+                <div><a href='#games'>Games</a></div>
+
 
             </div>:null
 

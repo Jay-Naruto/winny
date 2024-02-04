@@ -18,7 +18,7 @@
 
 .roadmapBack{
     position: absolute;
-    z-index: -2;
+    z-index: -2 ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,15 +40,18 @@
     }
 }
 .mobile4{
-    height: 800px;
+    z-index: 2 ;
+
+}
+.mobile4 img{
+    width: 70vh;
     position: absolute;
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    top: 60%;
     left: 57%;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
 }
 @keyframes fade-in {
     from {

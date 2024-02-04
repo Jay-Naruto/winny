@@ -8,7 +8,7 @@ export default function Roadmap() {
   })
 
   return (
-    <div id='roadmap' className={styles.ringBody} style={{position:'relative'}}>
+    <div  className={styles.ringBody} style={{position:'relative'}}>
 
         <img className={styles.roadmapBack} src='./multiring.png' alt=''/>
         <Fade delay={1000} className={styles.mobile4} direction='bottom'>

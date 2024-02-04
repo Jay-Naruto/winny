@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%; 
+}
+.titleBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+    text-align: center;
+}
+.titleBox1{
+    color: white;
+    font-size: 2.5vh;
+font-weight: 700;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 20px;
+width: 100%;
+text-transform: uppercase;
+
+}
+.titleBox2{
+    background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+    linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5vh;
+font-weight: 700;
+text-transform: uppercase;
+width: 100%;
+
+    font-family: "Righteous", sans-serif;
+}
+.titleBox3{
+   color: white;
+    font-size: 5vh;
+font-weight: 700;
+    font-family: "Righteous", sans-serif;
+text-transform: uppercase;
+width: 100%;
+}
+.el1{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        
+        left: 70%;
+        top: 20%;
+        transform: translate(-50%,-50%) scale(1.8);
+}
+.phaseBox{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 5vh;
+    position: relative;
+}
+.phaseBox1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 100%;
+    gap: 5vh;
+    position: relative;
+}
+.phaseImages{
+    position: relative;
+
+}
+.phaseImg1{
+    position: relative;
+    width: 45vh;
+    z-index: -1;
+}
+.phaseImg2{
+    position: absolute;
+    top:  60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.phaseImg2 img{
+    width: 30vh;
+    top: 0px;
+
+}
+.phaseImg2 img{  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% {  transform: translatey(0px); }
+    50%  {  transform: translatey(30px);  }
+    100%   {  transform: translatey(0px);  }    
+}
+
+.phaseContent{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+gap: 20px;
+}
+.phaseBoxTitle{
+    background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+    linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5vh;
+font-weight: 400;
+    font-family: "Righteous", sans-serif;
+}
+.phaseBoxContent{
+    color: white;
+    font-size: 1.7vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}

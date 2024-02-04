@@ -24,6 +24,8 @@ const Future = dynamic(() => import('@/components/Future/Future.js'), { ssr: fal
 const Swap = dynamic(() => import('@/components/Swap/Swap.js'), { ssr: false })
 const Map = dynamic(() => import('@/components/Map/Map.js'), { ssr: false })
 const Bottom = dynamic(() => import('@/components/Bottom/Bottom.js'), { ssr: false })
+const Phase = dynamic(() => import('@/components/Phases/Phase.js'), { ssr: false })
+
 
 // const Partners = dynamic(() => import('@/components/Partners/Partners.js'), { ssr: false })
 
@@ -65,7 +67,7 @@ setLoader(0)
       {/* <PlayStore/> */}
       <Swap/>
       <Roadmap/>
-
+      <Phase/>
       <Partners/>
       <Map/>
       <Bottom/>

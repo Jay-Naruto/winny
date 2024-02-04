@@ -60,20 +60,7 @@ font-weight: 400;
     width: 200px;
 }
 
-.spContent div{
-    font-family: 'Red Hat Display', sans-serif;
 
-    font-weight: 600;
-    font-size: 64px;
-}
-.spContent p{
-    font-family: 'Red Hat Display', sans-serif;
-    width: 60%;
-
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 33px;
-}
 .project{
     position: relative;
     width: 100%;
@@ -82,7 +69,7 @@ background-color: transparent;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 100px 0;
+margin: 200px 0;
 
 
 }
@@ -102,14 +89,14 @@ margin: 100px 0;
     linear-gradient(0deg, #FFFFFF, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 75px;
+    font-size: 9vh;
 font-weight: 700;
 
     font-family: "Righteous", sans-serif;
 }
 .text2{
     color: white;
-    font-size: 75px;
+    font-size: 9vh;
 font-weight: 700;
 
     font-family: "Righteous", sans-serif;
@@ -121,10 +108,11 @@ font-weight: 700;
 }
 .text3{
     color: white;
-    font-size: 20px;
+    font-size: 2vh;
     font-weight: lighter;
     font-family: "Open Sans", sans-serif;
-    width: 50%;
+    width: 40%;
+    margin-top: 20px;
 }
 .projectBkg{
     position: relative;
@@ -147,14 +135,11 @@ align-items: center;
 .projectSqImg{
     /* width: 50%; */
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    right: 0;
+    justify-content: center;
+    align-items: center;
+    /* right: 0; */
 }
-.projectSqImg img{
-    /* width: 100%; */
-    right: 0;
-}
+
 .projectEllipse{
     position: absolute;
     width: 30%;

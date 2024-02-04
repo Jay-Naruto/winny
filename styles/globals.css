@@ -927,13 +927,14 @@ margin-top: 50px;
 }
 .marquee{
   position: absolute !important;
-  width: 600px !important;
+  width: 70vh !important;
+  right: -6vw;
 
 }
 .marquee2{
   position: absolute !important;
-  right: 200px;
-  width: 600px !important;
+  right: 17vw;
+  width: 70vh !important;
 
 }
 .rfm-child img{
