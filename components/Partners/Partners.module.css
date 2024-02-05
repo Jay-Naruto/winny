@@ -168,6 +168,8 @@ align-items: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+ margin-top: 100px;
+
 }
 .spAll{
  margin-top: 0;
@@ -189,20 +191,7 @@ align-items: center;
 .spContent img{
     width: 100px;
 }
-.spContent div{
-    font-family: 'Red Hat Display', sans-serif;
 
-    font-weight: 600;
-    font-size: 33px;
-}
-.spContent p{
-    font-family: 'Red Hat Display', sans-serif;
-    width: 90%;
-
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 22px;
-}
 .project{
     position: relative;
     width: 100%;
@@ -237,9 +226,9 @@ width: 100%;
 .projectSqImg{
     width: 100%;
 }
-.projectSqImg img{
+/* .projectSqImg img{
     width: 100%;
-}
+} */
 .projectEllipse{
     position: absolute;
     width: 90%;
@@ -277,11 +266,12 @@ font-weight: 700;
     font-family: "Righteous", sans-serif;
 }
 .text3{
-    color: white;
-    font-size: 20px;
+    color: rgba(255, 255, 255, 0.841);
+    font-size: 15px;
     font-weight: lighter;
     font-family: "Open Sans", sans-serif;
     width: 90%;
+    text-align: justify ;
 }
 .el2{
     position: absolute;
@@ -299,9 +289,10 @@ font-weight: 700;
 }
 .projectBody{
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    justify-content: flex-start;
+    align-items: flex-start; 
     flex-direction: column;
+    padding: 20px;
     
 }
 }

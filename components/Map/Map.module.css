@@ -199,7 +199,7 @@ border-radius: 20px;
     .roadmapBack{
         position: absolute;
         top: 60%;
-        left: 50%;
+        left: 0%;
         transform: translate(-50%,-50%);
         z-index: 1;
         animation: spin2 10s linear infinite;
@@ -251,7 +251,7 @@ border-radius: 20px;
     .p3{
         position: absolute;
         left: 200px;
-        bottom: 10px;
+        top: 100px;
         width: 50px !important;
         z-index: 10;
     }
@@ -265,7 +265,7 @@ border-radius: 20px;
     }
     .p5{
         position: absolute;
-        left: 60%;
+        left: 70%;
         top: 30px;
         z-index: 10;
         width: 50px !important;
@@ -311,5 +311,27 @@ border-radius: 20px;
         margin-bottom: 100px;
         flex-direction: column;
     
+    }
+    .ringBody{
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        height: max-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        flex-direction: column;
+    
+    }
+    .map{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 1;
+        top: 30px;
     }
 }

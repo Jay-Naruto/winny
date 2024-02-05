@@ -1,7 +1,11 @@
 import React from 'react'
 import styles from "./Phase.module.css"
 import { Fade, Zoom } from 'react-awesome-reveal'
+import { useMediaQuery } from 'react-responsive'
 export default function Phase() {
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(max-width: 1000px)'
+      })
   return (
     <div  className={styles.body} >
         <div className={styles.component} >
@@ -19,7 +23,7 @@ export default function Phase() {
 
 
             <div className={styles.phaseBox}>
-<Fade direction='right'>
+<Fade style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%'}} direction='right'>
 
             <div className={styles.phaseBox1}>
 <div className={styles.phaseImages}>
@@ -31,7 +35,7 @@ export default function Phase() {
 <div className={styles.phaseContent}>
     <div className={styles.phaseBoxTitle}>
         The Winny Ascent: Where Skill, Perseverance,
-    <br></br>
+    {isDesktopOrLaptop ? <></> : <br></br> }
         and High Scores Reign Supreme
     </div>
     <div className={styles.phaseBoxContent}>
@@ -50,14 +54,14 @@ export default function Phase() {
 
 
 
-<div className={styles.phaseBox1}>
+<div className={`${styles.phaseBox1} ${styles.reverseColm}`}>
 
-<Fade direction='left'>
+<Fade style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%'}}  direction='left'>
 
 <div className={styles.phaseContent}>
     <div className={styles.phaseBoxTitle}>
     A Welcoming Gateway and a Boost for 
-    <br></br>
+    {isDesktopOrLaptop ? <></> : <br></br> }
     Your Journey
     </div>
     <div className={styles.phaseBoxContent}>
@@ -80,7 +84,7 @@ export default function Phase() {
 
 
 <div className={styles.phaseBox1}>
-<Fade direction='right'>
+<Fade style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%'}} direction='right'>
 
 <div className={styles.phaseImages}>
 <img className={styles.phaseImg1} src='./phase3.png' alt=''/>
@@ -93,7 +97,7 @@ export default function Phase() {
 
     <div className={styles.phaseBoxTitle}>
     The Winny Life: Fueling Your 1v1 Battles 
-    <br></br>
+    {isDesktopOrLaptop ? <></> : <br></br> }
     and the Reward Pool
     </div>
     <div className={styles.phaseBoxContent}>
@@ -112,14 +116,14 @@ export default function Phase() {
 
 
 
-<div className={styles.phaseBox1}>
-<Fade direction='left'>
+<div className={`${styles.phaseBox1} ${styles.reverseColm}`}>
+<Fade style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%'}} direction='left'>
 
 
 <div className={styles.phaseContent}>
     <div className={styles.phaseBoxTitle}>
     The Thrill of the Chase: The Winny 
-    <br></br>
+    {isDesktopOrLaptop ? <></> : <br></br> }
     Leaderboard
     </div>
     <div className={styles.phaseBoxContent}>
@@ -144,7 +148,7 @@ export default function Phase() {
 
 
 <div className={styles.phaseBox1}>
-<Fade direction='right'>
+<Fade style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%'}} direction='right'>
 
 <div className={styles.phaseImages}>
 <img className={styles.phaseImg1} src='./phase5.png' alt=''/>

@@ -23,7 +23,7 @@ export default function Future() {
   
   return (
     <div className={styles.future}>
-      <img className={styles.landingbkg} src='./landing.png' alt=''/>
+      <img className={styles.landingbkg} src={ isDesktopOrLaptop ? './landingMobile.png' :'./landing.png'} alt=''/>
 
         <div  className={styles.futureBox}>
             <div  className={styles.futureContent}>

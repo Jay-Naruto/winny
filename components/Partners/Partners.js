@@ -1,14 +1,44 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./Partners.module.css"
 import CardsComp from '../CardsComp/CardsComp'
 import { useMediaQuery } from 'react-responsive'
 import Marquee from "react-fast-marquee";
-
+import Slider from "react-slick";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 export default function Partners() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(max-width: 1000px)'
       })
-
+      const images = ['./g1.png', './g2.png', './g3.png', './g4.png','./g5.png'];
+      const NextArrow = ({ onClick }) => {
+        return (
+          <div className="arrow next" onClick={onClick}>
+            <FaArrowRight />
+          </div>
+        );
+      };
+    
+      const PrevArrow = ({ onClick }) => {
+        return (
+          <div className="arrow prev" onClick={onClick}>
+            <FaArrowLeft />
+          </div>
+        );
+      };
+    
+      const [imageIndex, setImageIndex] = useState(0);
+    
+      const settings = {
+        infinite: true,
+        lazyLoad: true,
+        speed: 300,
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: 0,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
+        beforeChange: (current, next) => setImageIndex(next),
+      };
   return (
     <div id='games' className={styles.partners}>
         {/* <div className={styles.bkgBody}>
@@ -84,20 +114,33 @@ export default function Partners() {
 
 
     </div> */}
-    <div className='marqueebody'>
-    <Marquee direction='up' autoFill={true} className='marquee'>
-     <img src="./g1.png" className="cardM"/>
-     <img src="./g2.png" className="cardM"/>
-     <img src="./g3.png" className="cardM"/>
+    {
+        isDesktopOrLaptop
+        ?
+        <Slider {...settings}>
+        {images.map((img, idx) => (
+          <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <img src={img} alt={img} />
+          </div>
+        ))}
+      </Slider>
+        :
+        <div className='marqueebody'>
+        <Marquee direction='up' autoFill={true} className='marquee'>
+         <img src="./g1.png" className="cardM"/>
+         <img src="./g2.png" className="cardM"/>
+         <img src="./g3.png" className="cardM"/>
+    
+         </Marquee>
+         <Marquee direction='down' autoFill={true} className='marquee2'>
+         <img src="./g4.png" className="cardM"/>
+         <img src="./g5.png" className="cardM"/>
+         <img src="./g6.png" className="cardM"/>
+    
+         </Marquee>
+        </div>
+    }
 
-     </Marquee>
-     <Marquee direction='down' autoFill={true} className='marquee2'>
-     <img src="./g4.png" className="cardM"/>
-     <img src="./g5.png" className="cardM"/>
-     <img src="./g6.png" className="cardM"/>
-
-     </Marquee>
-    </div>
 
      
 

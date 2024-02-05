@@ -81,26 +81,26 @@ z-index: -1;
     .roadmapBack{
         position: absolute;
         top: 60%;
-        left: 50%;
+        left: 0%;
         transform: translate(-50%,-50%);
         z-index: 1;
         height: auto;
         width: 100%;
-        display: none;
+        /* display: none; */
     }
     
 
 
 .mobile4 img{
     height: auto;
-    width: 300px !important;
+    width: 100% !important;
     position: absolute;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
-    left: 54%;
+    left: 60%;
     transform: translateX(-50%);
 }
 .textCenter{
@@ -111,5 +111,15 @@ z-index: -1;
   -webkit-text-fill-color: transparent;
 z-index: -1;
 }
-
+.ringBody{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
 }

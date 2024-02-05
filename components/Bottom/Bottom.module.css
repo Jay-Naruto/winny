@@ -192,10 +192,10 @@ margin-bottom: 50px;
     flex-direction: column;
     text-align: center;
     width: 90%;
-    font-family: 'Red Hat Display', sans-serif;
     margin-top: 50px;
     z-index: 1000;
     font-size: 20px;
+    
 
 }
 .spContent img{
