@@ -28,7 +28,7 @@ export default function Future() {
         <div  className={styles.futureBox}>
             <div  className={styles.futureContent}>
             <div className={styles.textPink}>
-            A Community For Gamers
+             {isDesktopOrLaptop ?<>A Community <br></br>For Gamers</> : <>A Community For Gamers</> } 
             </div>
             <div  className={styles.textWhite}>
             by Winny

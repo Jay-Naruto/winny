@@ -170,7 +170,7 @@ z-index: -1;
     position: absolute;
     left: 0%;
 
-    bottom: 0vh;
+    bottom: -7vh;
     width: 100%;
     z-index: 10;
 }
@@ -180,7 +180,7 @@ z-index: -1;
 }
 .bike{
     position: absolute;
-    bottom: 0vh;
+    bottom: -7vh;
     z-index: 10;
     right: 0%;
 }
