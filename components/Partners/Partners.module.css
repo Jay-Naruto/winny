@@ -81,7 +81,11 @@ margin: 200px 0;
     justify-content: flex-start;
     align-items: flex-start; 
     flex-direction: column;
-    
+    width: 100%;
+
+}
+.el3{
+    display: none;
 }
 .text1{
     background: linear-gradient(91.26deg, #8AD4EC 0%, #EF96FF 21.74%, #FF56A9 54.03%, #FFAA6C 85.28%),
@@ -276,16 +280,25 @@ font-weight: 700;
 .el2{
     position: absolute;
     left: 0;
-    width: 80%;
-    bottom: 10%;
+    width: 100%;
+    top: -30%;
     z-index: 1;
+}
+.el3{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%) scale(3);
+    width: 100%;
+
+    z-index: -1;
 }
 .box{
     position: absolute;
     z-index: 3;
     left: 20%;
   top: -50px;
-  width: 20%;
+  width: 30%;
 }
 .projectBody{
     display: flex;

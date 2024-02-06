@@ -17,6 +17,7 @@ import Header from '@/components/Header/Header.js'
 import { useEffect, useState } from 'react'
 import Loading from '@/components/Loading.js'
 import dynamic from 'next/dynamic'
+import Why from '@/components/Why/Why.js'
 // import Map from '@/components/Map/Map.js'
 // import Bottom from '@/components/Bottom/Bottom.js'
 const Roadmap = dynamic(() => import('@/components/Roadmap/Roadmap.js'), { ssr: false })
@@ -70,6 +71,7 @@ setLoader(0)
       <Phase/>
       <Partners/>
       <Map/>
+      <Why/>
       <Bottom/>
 
 

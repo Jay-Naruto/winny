@@ -9,20 +9,32 @@ export default function Roadmap() {
 
   return (
     <div  className={styles.ringBody} style={{position:'relative'}}>
+       <img className={styles.confetti} src='./confetti.png' alt=''/>
+
+
 
         <img className={styles.roadmapBack} src='./multiring.png' alt=''/>
         <Fade delay={1000} className={styles.mobile4} direction='bottom'>
         <img  src='./mobile4.png' alt=''/>
         </Fade>
-        <div>
+        <div >
           <Zoom>
           <div className={styles.textCenter}>
+       
           WINNY</div>
           </Zoom>
         </div>
 
 
-
+        <Fade className={styles.car} delay={1000} direction='left'>
+       <img  src='./car.png' alt=''/>
+       </Fade>
+       <Fade className={styles.watch} delay={1000} direction='top'>
+       <img src='./watch.png' alt=''/>
+      </Fade>
+       <Fade className={styles.bike} delay={1000} direction='right'>
+       <img  src='./bike.png' alt=''/>
+      </Fade>
     </div>
   )
 }

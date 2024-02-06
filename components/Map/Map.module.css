@@ -258,7 +258,7 @@ border-radius: 20px;
     .p4{
         position: absolute;
         left: 50%;
-        top: 0px;
+        top: 30px;
         z-index: 10;
         width: 50px !important;
 
@@ -333,5 +333,13 @@ border-radius: 20px;
         width: 100%;
         z-index: 1;
         top: 30px;
+    }
+    .mapBody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        flex-direction: column;
+        margin-top: 10px;
     }
 }

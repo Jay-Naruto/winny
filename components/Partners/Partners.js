@@ -114,6 +114,8 @@ export default function Partners() {
 
 
     </div> */}
+        <img className={styles.el3} src='./el4.png' alt=''/>
+
     {
         isDesktopOrLaptop
         ?
