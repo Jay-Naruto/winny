@@ -26,6 +26,7 @@
     flex-direction: column;
     background-color: transparent;
     position: relative;
+    margin: 100px 0;
 }
 
 .spContent{
@@ -283,6 +284,7 @@ font-weight: 700;
     width: 100%;
     top: -30%;
     z-index: 1;
+    display: none;
 }
 .el3{
     display: block;

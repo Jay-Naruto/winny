@@ -33,7 +33,7 @@ export default function Map() {
             <img className={styles.p1} src='./person.png' alt=''/>
 
         }
-        position={ isDesktopOrLaptop ?'top left': 'top right'}
+        position={ 'top left'}
         on={['hover', 'focus']}
         arrow={'top right' !== 'center center'}
       >
@@ -50,7 +50,7 @@ export default function Map() {
               <Popup
         key={`tp2`}
         trigger={
-            <img className={styles.p2} src='./person.png' alt=''/>
+            <img className={styles.p2} src='./p2 copy.png' alt=''/>
 
         }
         position={ isDesktopOrLaptop ?'top left': 'top right'}
@@ -68,7 +68,7 @@ export default function Map() {
         <Popup
         key={`tp3`}
         trigger={
-            <img className={styles.p3} src='./person.png' alt=''/>
+            <img className={styles.p3} src='./p3.png' alt=''/>
 
         }
         position='top right'
@@ -86,7 +86,7 @@ export default function Map() {
         <Popup
         key={`tp4`}
         trigger={
-            <img className={styles.p4} src='./person.png' alt=''/>
+            <img className={styles.p4} src='./p4.png' alt=''/>
 
         }
         position='top right'
@@ -104,7 +104,7 @@ export default function Map() {
         <Popup
         key={`tp5`}
         trigger={
-            <img className={styles.p5} src='./person.png' alt=''/>
+            <img className={styles.p5} src='./p5.png' alt=''/>
 
         }
         position='top right'
@@ -122,7 +122,7 @@ export default function Map() {
         <Popup
         key={`tp6`}
         trigger={
-            <img className={styles.p6} src='./person.png' alt=''/>
+            <img className={styles.p6} src='./p6.png' alt=''/>
 
         }
         position='top right'

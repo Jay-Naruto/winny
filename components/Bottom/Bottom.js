@@ -13,7 +13,8 @@ export default function Bottom() {
         { isDesktopOrLaptop ? "./Section 6.png" : './Section 6.png'} alt=''/>
       
         <div className={styles.spContent}>
-        Become a part of the<br></br>community
+        Join Winny's community,<br></br>play, win, and connect
+           
             <br></br><br>
             </br>
             <img src='./download.png' alt=''/>

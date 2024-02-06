@@ -28,10 +28,10 @@ export default function Swap() {
            PLAY AND
                 </div>
                 <div className={styles.swapH2}>
-                BIG WIN
+                WIN BIG 
                 </div>
                 <div className={styles.swapP}>
- Tellus velit at lectus condimentum est morbi egestas dignissim eu. Lectus nibh in lectus id facilisis ut dictum urna. Risus tellus lectus purus leo fringilla ipsum. Nulla potenti nisi nibh dictum commodo orci.
+                Unlock endless gaming possibilities with Winny, powered by its unique native token!      
                 </div>
                 <div className={styles.swapBtn}>
             <img src='./download.png' alt=''/>

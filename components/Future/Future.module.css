@@ -45,6 +45,7 @@ position: relative;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    width: 90%;
 }
 .futureBox div{
 
@@ -56,14 +57,14 @@ text-transform: uppercase;
     linear-gradient(0deg, #FFFFFF, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 6.5vh;
+    font-size: 6vh;
 font-weight: 700;
 
     font-family: "Righteous", sans-serif;
 }
 .textWhite{
     color: white;
-    font-size: 6.5vh;
+    font-size: 4vh;
 font-weight: 700;
 
     font-family: "Righteous", sans-serif;
@@ -276,14 +277,14 @@ font-weight: 700;
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 40px;
+        font-size: 30px;
     font-weight: 700;
     
         font-family: "Righteous", sans-serif;
     }
     .textWhite{
         color: white;
-        font-size:40px;
+        font-size:30px;
     font-weight: 700;
     
         font-family: "Righteous", sans-serif;

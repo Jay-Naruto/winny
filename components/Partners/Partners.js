@@ -64,15 +64,14 @@ export default function Partners() {
                 <div className={styles.projectBody}>
 
                 <div className={styles.text1} >
-                   CALL OF
+                Game Zone
                 </div>
-                <div className={styles.text1}>
+                {/* <div className={styles.text1}>
                     DUTY
-                </div>
-                <div className={styles.text2}>BLACK OPS</div>
+                </div> */}
+                {/* <div className={styles.text2}>BLACK OPS</div> */}
                 <div className={styles.text3}>
- Tellus velit at lectus condimentum est morbi egestas dignissim eu. Lectus nibh in lectus id facilisis ut dictum urna. Risus tellus lectus purus leo fringilla ipsum. Nulla potenti nisi nibh dictum commodo orci.
-                    
+                Dive into Winny's dynamic game collection on our website, where you can play, explore, and even make money!     
                 </div>
 
                 </div>
